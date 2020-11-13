@@ -1,0 +1,31 @@
+
+
+https://www.mouser.de/ProductDetail/TE-Connectivity/6339167-3?qs=Il0cmQ4mt8I3NV0IIRZAEg%3D%3D   ?
+
+
+
+
+Klaus und Horst Bestellliste schicken Mouser, Bluetooth und SteckerMolex
+https://www.ebay.de/itm/JST-XH-Micro-Mini-1-25mm-Stecker-10cm-Kabel-JST-XH-Buchsen-1-25mm-1-10-Pin/392995465350?_trkparms=ispr%3D1&hash=item5b805ae886:g:1ZAAAOSwoUBfmp1f&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkyMJZWL%252BqFSgQ3TOOe%252FNr7r2qOS6GuOucX%252FmKJNUI9VcHutHy36NIsLXoezyw8Vf4YS7lTCp4hpJ0dyfj70b0arvUZ8%252F6%252F%252B8t23GE0J0BqKRSxKIqt4a220cVN5rXpxJtLeVi%252BS%252Fj2WHuyDFQBEE7LXLkEBDf8tXkhm3%252FS%252FjrMiRt1h1s7GRJ3ieRGpQ9XCiKrlC%252BDAdz%252BfpvLqWFu0XoIHybOJEcLZ0Zg7ofVixvWHkes6G4rgErXh6tOvvn5KYmpMXHCcJMgFbkimOmspLrLgjzfiDVwSwSMmnl%252BlNQ6KOJ8DRxfJOeULGA%252F28SbDVpiBHNhEDFdDNvmSykLeWh8YoNwGUd1VbFbrMFcLz1vGiu7PH1omE7NeQN0uPOsK0L5X%252FNuwbvR%252Fh6PVlQqyMDjzKrwfmiUwaNV4sNqyqx0wApz5P%252BguSYZBBnqYpC3f5qemU5tno5w%252BD2XKi5n7zxwxkfaQpfUuHFPQVmzLI1Yp8hhFlK%252F%252BwWeSXqK6lM3fn3z1rHM33ELyaV%252BHz6rEePz45OOLEDFg%252FHSjryJ%252F14V83z92%252B3DhIPoviZUTaRLfPUIvcH4%252BqDV3q%252FQmxuoWatiIjr16LAAD8FgFQaGj23QQhcrmk2JYkNS6QIQyZw0UthVEk5TdIXixoe1rtYwC8H9K0tVcbbHBkBNSKxWYUVTeptMYoKwtFIA20hFa%252Bfu8h1Wve8kt9A0B2hy9hc6QIaqIg10IEXcN9a4yVzft1lxWOa0rgiaeIgUpkUELPMUK5m%7Ccksum%3A3929954653505376b3f25a0142d8b89a03ffd0d4e3e0%7Campid%3APL_CLK%7Cclp%3A2334524
+
+https://www.ebay.de/itm/HM-11-BLE-Bluetooth-4-0-Transceiver-CC2541-JDY-10-Low-Power-NEW/264838218631?hash=item3da9968387:g:Iq4AAOSw6ntfPfZz
+
+
+
+Differenzdrucksensor Alternativen (Pinkomptaibel):
+https://www.mouser.de/ProductDetail/Honeywell/HSCMRRN001PD2A3?qs=4indQ9AG%252BqHzrHCVok8zSA%3D%3D
+https://www.mouser.de/ProductDetail/Honeywell/HSCMRRN100MD2A3?qs=4indQ9AG%252BqGDrkg6gJOs5w%3D%3D
+https://www.mouser.de/ProductDetail/Amphenol-All-Sensors/DLVR-L30D-E1BD-C-NI3N?qs=RcG8xmE7yp2lzyXa%252Bq8dtA%3D%3D   
+
+
+Leider andere Pinbelegung:
+https://www.mouser.de/ProductDetail/Bourns/BPS120-AD01P0-2DG?qs=w%2Fv1CP2dgqrKMSArjm8Ymg%3D%3D
+
+
+
+Version 2.0 Punkte:
+- Spannungsversorgung Einschlafen und Aufwachen via CAN.
+- teure oder günstige IMU rauswerfen. 
+- 1 x MS5611 oder Differenzdrucksensor rauswerfen
+- GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
+- 
