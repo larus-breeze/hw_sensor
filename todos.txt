@@ -28,4 +28,6 @@ Version 2.0 Punkte:
 - teure oder günstige IMU rauswerfen. 
 - 1 x MS5611 oder Differenzdrucksensor rauswerfen
 - GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
-- 
+- MS5611 do not rote between pins!
+- Crystal   Check STM note again.
+- debug stecker ok?
