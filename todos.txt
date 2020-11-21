@@ -31,3 +31,8 @@ Version 2.0 Punkte:
 - MS5611 do not rote between pins!
 - Crystal   Check STM note again.
 - debug stecker ok?
+- reset switch auch für boot0
+
+Andere Links / Informationen:
+Si7021 HUT21 (PWM Duty Cyle Output!): https://www.christians-shop.de/Si7021-Temperatur-und-Feuchtigkeitssensor-GY-213V-SI7021?curr=EUR&gclid=Cj0KCQjwlvT8BRDeARIsAACRFiWLn-7yIMWkR6Vf0I2VSW4Ka3ERU9FWol5h53IxEfkJ2xujKrG19X4aArXLEALw_wcB
+HTU31: https://www.amsys.de/produkte/feuchtigkeitssensoren/htu31d-digitaler-feuchtesensor-mit-alternativer-i2c-adresse/
