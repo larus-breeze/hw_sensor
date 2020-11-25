@@ -28,10 +28,16 @@ Version 2.0 Punkte:
 - teure oder günstige IMU rauswerfen. 
 - 1 x MS5611 oder Differenzdrucksensor rauswerfen
 - GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
-- MS5611 do not rote between pins!
+- MS5611 do not rote between pins!  Wie hat das bestücken geklappt?
 - Crystal   Check STM note again.
 - debug stecker ok?
 - reset switch auch für boot0
+- USB 5V + GND Leiterbahnen etwas breiter!  PADS länger zum handlöten?, USB ESD Schutz weiter entfernt von USB Buchse? VBUS required if self powered! Include!
+- Testpunkte kleiner?
+- RJ45  CAN nutzt kein "twisted pair", sondern zwei einzeladern. 
+- AM1117 ersetzten da nur bis maximal 15V. (Alles über 12 scheint nicht wirklich sein Ding zu sein)  Es gibt welche bis 20V in SOT-223 aber besser 
+die Versorgung hier überarbeiten.Überspannungsschutzabschaltung?  Crowbar?
+
 
 Andere Links / Informationen:
 Si7021 HUT21 (PWM Duty Cyle Output!): https://www.christians-shop.de/Si7021-Temperatur-und-Feuchtigkeitssensor-GY-213V-SI7021?curr=EUR&gclid=Cj0KCQjwlvT8BRDeARIsAACRFiWLn-7yIMWkR6Vf0I2VSW4Ka3ERU9FWol5h53IxEfkJ2xujKrG19X4aArXLEALw_wcB
