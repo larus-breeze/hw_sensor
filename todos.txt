@@ -24,7 +24,7 @@ Version 2.0 Punkte:
 - USB Anschlüsse etwas weiter auseinander. Sonst ist es knapp mir 2 Steckern direkt Nebeneinander. 
 - Crystal   Check STM note again.
 - debug stecker ok?
-- reset switch auch für boot0 ?
+- reset switch auch für boot0 ?     (Mouser auf Platinenrand: 506-1-1825027-2) TE Connectivity 1-1825027-2 / Im Normalen Betrieb dann Mode Switch. 
 - USB 5V + GND Leiterbahnen etwas breiter!  PADS länger zum handlöten?, USB ESD Schutz weiter entfernt von USB Buchse? VBUS required if self powered!  
 - Testpunkte kleiner?
 - RJ45  CAN nutzt kein "twisted pair", sondern zwei einzeladern. 
