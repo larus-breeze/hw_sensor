@@ -2045,7 +2045,7 @@ $EndComp
 Text Notes 11250 6975 0    50   ~ 0
 I2C Addr: 0xEC
 Text Notes 9850 6975 0    50   ~ 0
-I2C Addr: 0xED
+I2C Addr: 0xEE
 $Comp
 L Device:C_Small C38
 U 1 1 5FFBE1A0

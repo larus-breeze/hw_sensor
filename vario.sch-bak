@@ -2042,9 +2042,9 @@ F 3 "" H 9975 7800 50  0001 C CNN
 	1    9975 7800
 	1    0    0    -1  
 $EndComp
-Text Notes 9875 6925 0    50   ~ 0
+Text Notes 11250 6975 0    50   ~ 0
 I2C Addr: 0xEC
-Text Notes 11350 6950 0    50   ~ 0
+Text Notes 9850 6975 0    50   ~ 0
 I2C Addr: 0xED
 $Comp
 L Device:C_Small C38
