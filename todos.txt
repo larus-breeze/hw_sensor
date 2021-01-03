@@ -32,6 +32,9 @@ Version 2.0 Punkte:
 - Testpunkte kleiner?
 - RJ45  CAN nutzt kein "twisted pair", sondern zwei einzeladern. 
 - AM1117 ersetzten da nur bis maximal 15V. (Wenig Reserve bei voller LIFEPO) Es gibt welche bis 20V in SOT-223 aber besser die Versorgung hier überarbeiten.Überspannungsschutzabschaltung?  Crowbar?
+- 3.3VA Filterung:  100Ohm + 100nF in Zuleitung des Linearreglers. (Oder Induktivität)   
+- Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
 - SDIO Pullups und oder Serienwiderstand erforderlich?
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
+- Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
