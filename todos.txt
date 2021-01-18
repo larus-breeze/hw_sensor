@@ -35,6 +35,7 @@ Version 2.0 Punkte:
 - 3.3VA Filterung:  100Ohm + 100nF in Zuleitung des Linearreglers. (Oder Induktivität)   
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
-- SDIO Pullups und oder Serienwiderstand erforderlich?
+- SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
 - Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
+- USBOn the go um Telefon zu versorgen. 
