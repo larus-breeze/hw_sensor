@@ -37,7 +37,11 @@ Version 2.0 Punkte:
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
 - Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
-- USBOn the Go um Telefon zu versorgen? 
+- USB On the Go um Telefon zu versorgen? 
+  >>>>>>>>>>>>> HMR Das mache ich seit Jahren so und würde es gerne auch weiter machen. 
+                Ich habe eine BT Verbindung zwischen meiner Knüppel-Fernsteuerung (von SteFly) und XCSoar auf Android. 
+                Eine zweite BT Verbindung zum Handy ist zwar möglich, aber wenn ich den USB-Stecker am Handy sowieso für die Versorgung brauche, 
+                dann macht es Sinn, die Datenleitung auch zu benutzen. Kleiner Teufelskreis, was ??
 - FXOS8700  solder mask gaps must be > 0.2mm!  Sonst Produktionsproblem. 
 
 Manuelle Korrekturen auf 1. Version für verbesserte Sensor Signalwerte. Für Testbetrieb:
