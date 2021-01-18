@@ -38,4 +38,4 @@ Version 2.0 Punkte:
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
 - Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
-- USBOn the go um Telefon zu versorgen. 
+- USBOn the Go um Telefon zu versorgen. 
