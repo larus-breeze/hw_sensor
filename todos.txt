@@ -47,3 +47,10 @@ Version 2.0 Punkte:
 Manuelle Korrekturen auf 1. Version für verbesserte Sensor Signalwerte. Für Testbetrieb:
  - 3.3VA Filterung:  100Ohm + 220nF in Zuleitung des Linearreglers. (Oder Induktivität)    
  - Eingang Platine: + 100nF parallel 
+ 
+Analoge Spannung überarbeiten. Folgende optionen verifizieren und die Richtige auswählen:
+- 3.3V Digital und 3.3VA vergleichen. Wieviel besser ist die Analoge Spannung z.Z. wirklich. 
+- 100Ohm und 220nF in der Zuleitung des Spannungsreglers im 5V Betrieb verifizieren. Dabei auch die anderen IMU, Differenz Sensorwerte analysieren. 
+- Den separaten Analog Regler weglassen. Die digitalen 3.3V mit C-L-C filtern und als Analoge 3.3V verwenden. Vielleicht bringt der separate Regler ja gar keinen wirklichen Vorteil.
+- Den 3.3VA Regler an den 5V Regler dranhängen um das Problem mit der limitierten Versorgungsspannung zu beheben. 
+
