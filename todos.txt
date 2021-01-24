@@ -22,6 +22,8 @@ Version 2.0 Punkte:
 - 1 x MS5611 oder Differenzdrucksensor rauswerfen
 - MS5611 do not rote between pins!  Wie hat das bestücken geklappt?
 - GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
+- GPS PPS LED verlegen neben USB Stecker.
+- GPS PPS auch an STM32 Eingang?
 - USB Anschlüsse etwas weiter auseinander. Sonst ist es knapp mir 2 Steckern direkt Nebeneinander. 
 - Geht der USB Bootloader auch mit angeschlossenen UART Geräten noch?
 - Crystal Check STM note again.
@@ -29,7 +31,10 @@ Version 2.0 Punkte:
 - Stecker auf Platine: Schmalerer Bestückungsdruck um Platz zu gewinnen. 
 - reset switch auch für boot0 ?     (Mouser auf Platinenrand: 506-1-1825027-2) TE Connectivity 1-1825027-2 / Im Normalen Betrieb dann Mode Switch.  !Achtung: BOOT0 geht nicht als GPIO Eingang!
 - USB 5V + GND Leiterbahnen etwas breiter!  PADS länger zum handlöten?, USB ESD Schutz weiter entfernt von USB Buchse? VBUS required if self powered!  
+- USB Spanungsleitungen vor Verpolungsmosfet?  (Zusätzlicher Verpolungsschutz)
 - Testpunkte kleiner?
+- Thermische Abführung  GNSS Massekontakte! 
+- GNSS Resetleitung Pullup? 
 - RJ45  CAN nutzt kein "twisted pair", sondern zwei einzeladern. 
 - AM1117 ersetzten da nur bis maximal 15V. (Wenig Reserve bei voller LIFEPO) Es gibt welche bis 20V in SOT-223 aber besser die Versorgung hier überarbeiten.Überspannungsschutzabschaltung?  Crowbar?
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
