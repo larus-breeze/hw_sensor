@@ -40,6 +40,7 @@ Version 2.0 Punkte:
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
+- SD Card Power Supply Switchable ?  Reset Card from strange state after reset?
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
 - Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
 - USB On the Go um Telefon zu versorgen? 
