@@ -19,11 +19,13 @@ Version 2.0 Punkte:
 - Spannungsversorgung Einschlafen und Aufwachen via CAN.
 - Sicherungen zwischen RJ45 Buchsen 12V
 - teure oder günstige IMU rauswerfen. 
+- external onewire Temperature via UART?
 - 1 x MS5611 oder Differenzdrucksensor rauswerfen
 - MS5611 do not rote between pins!  Wie hat das bestücken geklappt?
 - GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
 - GPS PPS LED verlegen neben USB Stecker.
 - GPS PPS auch an STM32 Eingang?
+- GPS Antenne etwas über kritischer Länge: https://www.youtube.com/watch?v=_Hfzq1QES-Q
 - USB Anschlüsse etwas weiter auseinander. Sonst ist es knapp mir 2 Steckern direkt Nebeneinander. 
 - Geht der USB Bootloader auch mit angeschlossenen UART Geräten noch?
 - Crystal Check STM note again.
@@ -40,9 +42,12 @@ Version 2.0 Punkte:
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
-- SD Card Power Supply Switchable ?  Reset Card from strange state after reset?
+- SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA MOSFET required
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
-- Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??
+- Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??     
+- Bluetooth Ausschnitt unter Antenne ist üblich.
+- Bluetooth Hinweis for LongRange and Speed: Use 10uF or 47uF capcacity on module VCC pin.
+- Bluetooth connect: PIO0:  http://www.jnhuamao.cn/bluetooth.asp   ?
 - USB On the Go um Telefon zu versorgen? 
   >>>>>>>>>>>>> HMR Das mache ich seit Jahren so und würde es gerne auch weiter machen. 
                 Ich habe eine BT Verbindung zwischen meiner Knüppel-Fernsteuerung (von SteFly) und XCSoar auf Android. 
