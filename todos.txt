@@ -33,7 +33,8 @@ Version 2.0 Punkte:
 - Stecker auf Platine: Schmalerer Bestückungsdruck um Platz zu gewinnen. 
 - reset switch auch für boot0 ?     (Mouser auf Platinenrand: 506-1-1825027-2) TE Connectivity 1-1825027-2 / Im Normalen Betrieb dann Mode Switch.  !Achtung: BOOT0 geht nicht als GPIO Eingang!
 - USB 5V + GND Leiterbahnen etwas breiter!  PADS länger zum handlöten?, USB ESD Schutz weiter entfernt von USB Buchse? VBUS required if self powered!  
-- USB Spanungsleitungen vor Verpolungsmosfet?  (Zusätzlicher Verpolungsschutz)
+- USB Spanungsleitungen vor Verpolungsmosfet?  (Zusätzlicher Verpolungsschutz) 
+- USB Buchse wechseln?  JLCPCB bestückt die jetzt auch! 
 - Testpunkte kleiner?
 - Thermische Abführung  GNSS Massekontakte! 
 - GNSS Resetleitung Pullup? 
@@ -42,17 +43,18 @@ Version 2.0 Punkte:
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
-- SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA MOSFET required
+- SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA peak. => MOSFET required
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
 - Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??     
 - Bluetooth Ausschnitt unter Antenne ist üblich.
 - Bluetooth Hinweis for LongRange and Speed: Use 10uF or 47uF capcacity on module VCC pin.
-- Bluetooth connect: PIO0:  http://www.jnhuamao.cn/bluetooth.asp   ?
+- Bluetooth connect: PIO0:  http://www.jnhuamao.cn/bluetooth.asp   ?   Sonstige PIOs anschließen, LED?
 - USB On the Go um Telefon zu versorgen? 
   >>>>>>>>>>>>> HMR Das mache ich seit Jahren so und würde es gerne auch weiter machen. 
                 Ich habe eine BT Verbindung zwischen meiner Knüppel-Fernsteuerung (von SteFly) und XCSoar auf Android. 
                 Eine zweite BT Verbindung zum Handy ist zwar möglich, aber wenn ich den USB-Stecker am Handy sowieso für die Versorgung brauche, 
                 dann macht es Sinn, die Datenleitung auch zu benutzen. Kleiner Teufelskreis, was ??
+				Das geht via IOIO Platine als USB OTG. Diese Funktionalität bedeutet einen hohen SW Entwicklungsaufwand. Schön wäre es aber. 
 - FXOS8700  solder mask gaps must be > 0.2mm!  Sonst Produktionsproblem. 
 
 Manuelle Korrekturen auf 1. Version für verbesserte Sensor Signalwerte. Für Testbetrieb:
