@@ -43,7 +43,7 @@ Version 2.0 Punkte:
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA peak. => MOSFET required
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
-- Bluetooth Modul umsteigen auf: RN4020-V/RM120    Zuverlässig von Mouser.??     
+- Bluetooth Modul umsteigen auf: (vorher evaluieren): https://www.digikey.de/product-detail/de/RN4020-V%2fRMBEC133/RN4020-V%2fRMBEC133-ND/7801876/?itemSeq=354659756   
 - Bluetooth Ausschnitt unter Antenne ist üblich.
 - Bluetooth Hinweis for LongRange and Speed: Use 10uF or 47uF capcacity on module VCC pin.
 - https://www.digikey.de/htmldatasheets/production/2935202/0/0/1/bt832a.html#pf5: The supply voltage has to be free of AC ripple voltage (for 	  example from a battery or a low noise regulator output). For noisy supply voltages, provide a decoupling circuit (for example a ferrite in 
