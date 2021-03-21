@@ -19,6 +19,7 @@ Version 2.0 Punkte:
 - external onewire Temperature via UART?
 - 1 x MS5611 oder Differenzdrucksensor rauswerfen
 - MS5611 do not rote between pins!  Wie hat das bestücken geklappt?
+- MS5611 Druckabnahme 3D druck mit M5 Einschraublöchern für Schlauchanschlussstutzen direkt an einer Gehäusewand. 
 - GPS überarbeiten? (Nur extern oder reicht es eins auf der Platine zu haben)?
 - GPS PPS LED verlegen neben USB Stecker.
 - GPS PPS auch an STM32 Eingang?
