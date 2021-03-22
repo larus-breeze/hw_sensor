@@ -12,6 +12,7 @@ HTU31: https://www.amsys.de/produkte/feuchtigkeitssensoren/htu31d-digitaler-feuc
 
 
 Version 2.0 Punkte:
+- Gauge anstelle des Differenzdrucksensors!  0...1PSI  <= OK,   +-1PSI <= falsch
 - "Default" Flugrichtung und oben auf Platine makieren. 
 - Spannungsversorgung Einschlafen und Aufwachen via CAN.
 - Sicherungen zwischen RJ45 Buchsen 12V
