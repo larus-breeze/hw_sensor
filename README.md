@@ -13,3 +13,7 @@ Static and pitot pressure shall be connected using 5mm inner diameter houses whi
 ![Barb Adapter M5 View 1](media/barb_adapter_1.JPG)
 
 ![Barb Adapter M5 View 2](media/barb_adapter_2.JPG)
+
+![Barb Adapter M5 Printed 1](media/barb_adapter_printed_1.JPG)
+
+![Barb Adapter M5 Printed 1](media/barb_adapter_printed_2.JPG)
