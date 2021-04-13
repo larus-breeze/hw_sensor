@@ -12,6 +12,7 @@ HTU31: https://www.amsys.de/produkte/feuchtigkeitssensoren/htu31d-digitaler-feuc
 
 
 Version 2.0 Punkte:
+- Anstelle von 1-2 RJ45-Anschlüssen, gefrästes Kunststoffteil zur MS5611 Druckabnahme.   1 x CAN und evtl. auch noch 1 x RS232 entfallen lassen.
 - Mehr Bauteile auf Rückseite:  Bluetooth, SD-Karte, ...?
 - Gauge anstelle des Differenzdrucksensors!  0...1PSI  <= OK,   +-1PSI <= falsch
 - "Default" Flugrichtung und oben auf Platine makieren. 
