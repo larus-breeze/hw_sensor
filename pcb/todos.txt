@@ -33,6 +33,7 @@ Version 2.0 Punkte:
 - debug stecker ok?
 - Stecker auf Platine: Schmalerer Bestückungsdruck um Platz zu gewinnen. 
 - reset switch auch für boot0 ?     (Mouser auf Platinenrand: 506-1-1825027-2) TE Connectivity 1-1825027-2 / Im Normalen Betrieb dann Mode Switch.  !Achtung: BOOT0 geht nicht als GPIO Eingang!
+- switches für boot0 und zusätzliche als allgemeine Einstellmöglichkeit für die Entwicklung. 
 - USB 5V + GND Leiterbahnen etwas breiter!  PADS länger zum handlöten?, USB ESD Schutz weiter entfernt von USB Buchse? VBUS required if self powered!  
 - USB Spanungsleitungen vor Verpolungsmosfet?  (Zusätzlicher Verpolungsschutz) 
 - USB Buchse wechseln?  JLCPCB bestückt die jetzt auch! 
@@ -47,6 +48,7 @@ Version 2.0 Punkte:
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA peak. => MOSFET required
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
+- CAN2 instead of CAN1 to use internal CAN bootloader. 
 - Bluetooth Modul umsteigen auf: (vorher evaluieren): https://www.digikey.de/product-detail/de/RN4020-V%2fRMBEC133/RN4020-V%2fRMBEC133-ND/7801876/?itemSeq=354659756   
 - Bluetooth Ausschnitt unter Antenne ist üblich.
 - Bluetooth Hinweis for LongRange and Speed: Use 10uF or 47uF capcacity on module VCC pin.
