@@ -45,6 +45,7 @@ Version 2.0 Punkte:
 - Evtl. ein PSRR: LT3042EMSE hinter die 5V. 
 - Eingang Platine: 100uF, 10uF, 100nF + 100pF + C-L-C Filter für + und -
 - Hardwareversion detektierung via PIN oder ADC.!
+- Spannungsversorgung ADC Messung verrauscht. Vor Schaltregler und nur 100uS Tiefpass!   Besser filtern. und vor Ferrit abnehmen.
 - SDIO Pullups und oder Serienwiderstand erforderlich?  AD57 benutzt 27R für alle SD Leitungen!
 - SD Card Power Supply Switchable ?  Reset Card from strange state after reset?  Around 100mA peak. => MOSFET required
 - CAN2 RX Pullup, sonst kein Init möglich.  Geht aber auch via MCU pullup.
