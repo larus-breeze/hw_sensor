@@ -11,7 +11,7 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - Select RS232 or CAN on RJ45 via solder jumpers! 
 - Sockets for 2 of these GNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 - Debug Connector TC2030-CTX-NL-STDC14
-
+- CAN / RS232 XCSOAR Bridge via WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge  
 
 # TODOs for hardware version 2.0
 - Design a milled part for static preassure hose connection. This part shall be attached with screws to the pcb.  
