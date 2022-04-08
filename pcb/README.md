@@ -9,7 +9,7 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - U.FL for  GNSS
 - Vertical USB-C for GNSS somewhere on PCB: 418K2022Y40000  (safe space on edges)
 - Select RS232 or CAN on RJ45 via solder jumpers! 
-- https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
+- Sockets for 2 of these GNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 - Debug Connector TC2030-CTX-NL-STDC14
 
 
