@@ -29,3 +29,4 @@ Static and pitot pressure shall be connected using 5mm inner diameter houses whi
 ![Assembled 3](media/full_assembled_3.jpg)
 
 
+
