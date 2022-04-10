@@ -1,5 +1,4 @@
-# Hardware_STM32F4_Vario
-Soaring Vario Sensor Hardware design. 
+# PCB design for Vario Sensor 
 
 ## Facts
 - STM32F407
