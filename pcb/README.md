@@ -1,6 +1,8 @@
 # Concept change
 - Small and lengthy enclosure: 1455CF1201  PCB Size 50 x 120mm
 - 1455J1201  ? 
+- Fischer Elektronik TUS 84 39 100 
+- Fischer Elektronik TUS 58 39 120
 - Instead of HM-19 ESP32-WROOM-32U with external Antenna for 2.4Ghz / Bluetooth. Connected via several UARTs, Could even be used to flash the 
 STM32F4 via WIFI! => Connect UART for bootloader flashing. 
 - No separate 3.3VA regulator
@@ -12,6 +14,7 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - Sockets for 2 of these GNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 - Debug Connector TC2030-CTX-NL-STDC14
 - CAN / RS232 XCSOAR Bridge via WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge  
+-  More status LEDs?   GNSS-Lock, GNSS-Heading-Lock,  External temp/humidity sensor values available,  SD-logging active   different colors?  RGB?
 
 # TODOs for hardware version 2.0
 - Design a milled part for static preassure hose connection. This part shall be attached with screws to the pcb.  
