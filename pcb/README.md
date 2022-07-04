@@ -42,7 +42,7 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - Change to USB-C connectors and increase spacing between connectors. 
 - Add a switch for boot0 at the pcb edge. 
 - Add one user switch at the pcb edge.
-- Any critics on the chosen 1.25mm debug connector? Shall it be changed? 
+- Any critics on the chosen 1.25mm debug connector? Shall it be changed?  Alternative: https://www.tag-connect.com/solutions-target-devices/arm#s0
 - Add GNSS reset pullup resistor.  
 - 3.3VA AM1117 maximum input voltage is 15V. The safety margin is small here! 
 - 3.3VA filtering is not optimal. Redesign analog voltage supply. E.g. 100Ohm + 220nF just at the analog voltage regulator input.
