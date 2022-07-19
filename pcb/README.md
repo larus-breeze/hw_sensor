@@ -10,13 +10,15 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - Milled static pressure hose connector
 - U.FL for  GNSS
 - Vertical USB-C for GNSS somewhere on PCB: 418K2022Y40000  (safe space on edges)
-- Select RS232 or CAN on RJ45 via solder jumpers! 
+- Select RS232 or CAN on RJ45 via solder jumpers! Reduce from 4 to two RJ45 Connectors.
 - Sockets for 2 of these GNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 - Debug Connector TC2030-CTX-NL-STDC14
 - CAN / RS232 XCSOAR Bridge via WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge  
 -  More status LEDs?   GNSS-Lock, GNSS-Heading-Lock,  External temp/humidity sensor values available,  SD-logging active   different colors?  RGB?
+- RJ45 2 x 2 above each other. E.g. Econ Connect 3022S2   or voelkner: C045531
 
 # TODOs for hardware version 2.0
+- Check https://www.youtube.com/watch?v=aVUqaB0IMh4 for VA Pi Network and Crystal
 - Design a milled part for static preassure hose connection. This part shall be attached with screws to the pcb.  
 - Remove one of the two RJ45 RS232 connectors.
 - Are the two RJ45 CAN connectors still required? 
@@ -29,14 +31,13 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - PCB cutout below the bluetooth antenna
 - Evaluate other bluetooth modules. Not everyone is happy with the HM-19. http://www.jnhuamao.cn/bluetooth.asp,  https://www.digikey.de/htmldatasheets/production/2935202/0/0/1/bt832a.html#pf5:
 - Bluetooth for LongRange and Speed: Use 10uF or 47uF capcacity on module VCC pin.
-- Wifi instead of bluetooth?  A TCP or UDP connection to XCSOAR is easy. 
+- Wifi instead of bluetooth?  A TCP or UDP connection to XCSOAR is easy.
 - Add text to mark default direction of flight on the pcb. 
 - Shall the CAN bus be able to go to sleep and disable the power supply? 
 - Fuses between RJ45 12V connections. 
 - Remove one MS5611 sensor
 - MS5611 do not rote between pins! Correct Layout
-- Remove cheap or expensive IMU sensors depending on which are required. 
-- FXOS8700  solder mask gaps must be > 0.2mm! Increase pad gaps.  
+- Remove cheap Gyro / ACC IMU as there will e.g. be a SparkFun 9DoF IMU Breakout. Keep expensive xSense Footprint.   
 - GNSS antenna connection on pcb is slightly above the critical length: https://www.youtube.com/watch?v=_Hfzq1QES-Q  Add cutout for SMA Connector.
 - Add a GNSS-PPS LED and connect to GPIO timer input. 
 - Change to USB-C connectors and increase spacing between connectors. 
