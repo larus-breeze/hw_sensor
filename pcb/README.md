@@ -4,10 +4,10 @@
 - Fischer Elektronik TUS 84 39 100 
 - Fischer Elektronik TUS 58 39 120
 - Instead of HM-19 ESP32-WROOM-32U with external Antenna for 2.4Ghz / Bluetooth. Connected via several UARTs, Could even be used to flash the 
-STM32F4 via WIFI! => Connect UART for bootloader flashing. 
+STM32F4 via WIFI! => Connect UART for bootloader flashing.  Attention: 400mA peak consumption ESP32 in wifi mode
 - No separate 3.3VA regulator
 - CAN2 
-- Milled static pressure hose connector
+- Milled static pressure hose connector.   Idea: Mounting holes 4x in 11.5mm distance square on the edge so that inner hoses are only required for pitot?
 - U.FL for  GNSS
 - Vertical USB-C for GNSS somewhere on PCB: 418K2022Y40000  (safe space on edges)
 - Select RS232 or CAN on RJ45 via solder jumpers! Reduce from 4 to two RJ45 Connectors.
@@ -26,6 +26,7 @@ STM32F4 via WIFI! => Connect UART for bootloader flashing.
 - RJ45 CAN does not use "one" single "twisted pair" but two in a standard patch cable.
 - Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.    
 - Move sd-card socket / bluetooth module to bottom side for a smaller size.
+- Move sd-card as far as possible to the pcb edge.
 - Chose a smaler enclosure with mounting points. E.g. 1455CF801(74 x 80 x 22.93mm PCB ~ 50 x 80mm)  or 1455CF1201(74 x 120 x 22.93 PCB ~50 x 120mm)  ~16€    
 - U.FL Connectors for GNSS and Bluetooth/Wifi on PCB. => ESP32-WROOM-32U on Board?   External SMA in enclosure.
 - PCB cutout below the bluetooth antenna
