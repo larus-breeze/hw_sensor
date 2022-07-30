@@ -3,7 +3,7 @@
 - No HM-19 Bluetooth. Hard to get and not everyone is happy with the functionality HM-19. Wifi instead of bluetooth? A TCP or UDP connection to XCSOAR is easy.
 - Alternative ESP32-WROOM-32U with external Antenna for 2.4Ghz / Bluetooth. Connected via several UARTs, Could even be used to flash the 
   STM32F4 via WIFI! => Connect STM32 UART, Boot-0 and Reset for Bootloader flashing? Attention: 400mA peak consumption ESP32 in Wifi Mode. Additional UART USB Adapter for ESP32 flashing or rely on WIFI flashing?
-  Example for WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge  
+  Example for WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge Connection of two smartphones simultaneously in a double seater possible. 
 - Redesigned 3.3VA supply. 3.3VA AM1117 maximum input voltage is 15V. The safety margin is small here! 3.3VA filtering is not optimal. A 100Ohm + 220nF just at the analog voltage regulator input. 
   Is a separate analog voltage regulator mandatory or can it be replaced with a C-L-C filter?  Check https://www.youtube.com/watch?v=aVUqaB0IMh4 for 3.3VA Pi Network and Crystal
 - CAN2 for update via inbuild bootloader.
@@ -56,6 +56,14 @@ https://de.farnell.com/honeywell/hscmrrv001pg2a3/drucksensor-1psi-i2c-digital/dp
 https://de.rs-online.com/web/p/drucksensor-ics/2269696
 
 
+## JLC Partnumbers
+- Micro SD slot: C114218
+- USB-C PCB Edge: C167321
+- USB-C Straight on PCB: C2761226
+- RJ45: C86575, C86577(only plastics),  or Mouser: RJHSE-5380 (Audio HW)  check magnetic? 
+- U.FL IPEX: C88373
+- CH340E: C99652
+- ESP32: C99652 (4MB),  C701346 (16MB)
 
 
 
