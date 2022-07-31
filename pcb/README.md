@@ -18,6 +18,7 @@ Encitech RJJS-88-144-E9H-047 RJ45
 
 
 # TODOs for hardware version 2.0
+- Why does the M9N needs a separate VDD_USB supply?
 - Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.    
 - Move sd-card as far as possible to the pcb edge.
 - Add text to mark default direction of flight on the pcb. 
