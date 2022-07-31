@@ -18,7 +18,8 @@ Encitech RJJS-88-144-E9H-047 RJ45
 
 
 # TODOs for hardware version 2.0
-- Why does the M9N needs a separate VDD_USB supply?
+- Filter C  for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
+- Why does the M9N needs a separate VDD_USB supply?   
 - Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.    
 - Move sd-card as far as possible to the pcb edge.
 - Add text to mark default direction of flight on the pcb. 
