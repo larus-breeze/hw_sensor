@@ -26,9 +26,9 @@ Total:  810.2mA max total.
 
 ### Enclosure
 - Hammond Electronics 1455K1202 Enclosure 75x 120mm  PCB 74.6 x 120
-- Free Space (active area on PCB) in enclosure 70 x 120  with some margin 68 x 120 mm 
+- Free Space (active area on PCB) in enclosure 70 x 120  with some margin 69 x 120 mm 
 
-### milled 5mm Hose preassure connector
+### PVC milled 5mm Hose preassure connector
 - 30mm(long) x 20mm(wide) x 25mm( high) 
 - 1 x MS5611 underneath 
 - 6 x 2.5mm screw connection to PCB. 
@@ -37,7 +37,7 @@ Total:  810.2mA max total.
 - GPIO16 / GPIO17 on ESP32 connected with USART2 (PA2/PA3) at 38400 baud. Flashed https://github.com/AlphaLima/ESP32-Serial-Bridge   Prototype works. Connection of two Android Smartphones with each two connenctions to a TCP socket worked. 
 - Connect GPIO04 / GPIO15 on ESP with USART1 (PA9/PA10), Connect STM32F4 Reset and Boot0. 
 - Add some headers for the other esp32 connectors.
-- Add a reset and program (GPIO0) button. Connect GPIO1 /GPIO3 via CH340E to a USB connector.
+- Add a reset and program (GPIO0) button. Connect GPIO1/GPIO3 via CH340E to a USB connector.
 - Connect a SPI data pump between ESP(Slave VSPI) and STM32(Master SPI2).  
 Use ESP Pins: VSPI (CS:  5, CLK: 18, MOSI: 23, MISO: 19)  https://github.com/hideakitai/ESP32DMASPI  
 Use STM32 Pins: CS: PB12, CLK: PB13, MOSI: PB15, MISO: PB14 ( Reuse L3GD20 interface, but provide another CS on the connector (PB0 or PB1) in case an external IMU needs SPI2)
