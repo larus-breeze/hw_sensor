@@ -25,7 +25,7 @@ Total:  810.2mA max total.
 ## Mechanical design:
 
 ### Enclosure
-- Hammond Electronics 1455K1202 Enclosure 75x 120mm  PCB 74.5 x 120
+- Hammond Electronics 1455K1202 Enclosure 75x 120mm  PCB 74.6 x 120
 - Free Space (active area on PCB) in enclosure 70 x 120  with some margin 68 x 120 mm 
 
 
@@ -39,4 +39,5 @@ Use ESP Pins: VSPI (CS:  5, CLK: 18, MOSI: 23, MISO: 19)  https://github.com/hid
 Use STM32 Pins: CS: PB12, CLK: PB13, MOSI: PB15, MISO: PB14 ( Reuse L3GD20 interface, but provide another CS on the connector (PB0 or PB1) in case an external IMU needs SPI2)
 
 - Where to connect the external RS232 interfaces?  XCSOAR via Wifi should be able to put data on the external RS232 line.  
-
+- Should an external device be able to talk to the STM32F4 directly or is it sufficient to connect these inputs only to the ESP32?
+- What to do with USART6 from HM19 BT module?
