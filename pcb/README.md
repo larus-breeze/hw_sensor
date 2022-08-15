@@ -5,7 +5,7 @@
   STM32F4 via WIFI! => Connect STM32 UART, Boot-0 and Reset for Bootloader flashing? Attention: 400mA peak consumption ESP32 in Wifi Mode. Additional UART USB Adapter for ESP32 flashing or rely on WIFI flashing?
   Example for WIFI / TCP: https://github.com/AlphaLima/ESP32-Serial-Bridge Connection of two smartphones simultaneously in a double seater possible. 
 - Redesigned 3.3VA supply. 3.3VA AM1117 maximum input voltage is 15V. The safety margin is small here! 3.3VA filtering is not optimal. A 100Ohm + 220nF just at the analog voltage regulator input. 
-  Is a separate analog voltage regulator mandatory or can it be replaced with a C-L-C filter?  Check https://www.youtube.com/watch?v=aVUqaB0IMh4 for 3.3VA Pi Network and Crystal
+  Is a separate analog voltage regulator mandatory or can it be replaced with a C-L-C filter?  Check https://www.youtube.com/watch?v=aVUqaB0IMh4 for 3.3VA Pi Network and Crystal. Selection of ferrit bead?  Compare: https://electronics.stackexchange.com/questions/527213/selection-of-ferrite-bead-for-analog-and-digital-supply-isolation https://www.analog.com/en/analog-dialogue/articles/ferrite-beads-demystified.html https://www.ti.com/lit/an/scaa048/scaa048.pdf
 - CAN2 for update via inbuild bootloader.
 - Design milled static pressure hose connector. Concept Idea: Mounting holes 4x in 11.5mm distance square on the edge so that inner hoses are only required for pitot sensing?
 - U.FL for  GNSS and Wifi/BT   External SMA in enclosure.
@@ -19,7 +19,8 @@ Encitech RJJS-88-144-E9H-047 RJ45
 
 # TODOs for hardware version 2.0
 - Filter C  for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
-- Why does the M9N needs a separate VDD_USB supply?   
+- Why does the M9N needs a separate VDD_USB supply?
+- Check ferrit bead current rating. Saturation!    
 - Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.    
 - Move sd-card as far as possible to the pcb edge.
 - Add text to mark default direction of flight on the pcb. 
