@@ -18,27 +18,30 @@ Encitech RJJS-88-144-E9H-047 RJ45
 
 
 # TODOs for hardware version 2.0
-- Filter C  for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
+- DONE: Filter C  for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
+- DONE: Check ferrit bead current rating. Saturation!
+- WONTDO: Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.
+- DONE: Remove cheap Gyro / ACC IMU as there will e.g. be a SparkFun 9DoF IMU Breakout. Keep expensive xSense Footprint.   
+- DONE: Add a switch for boot0 at the pcb edge. 
+- DONE: Add GNSS reset pullup resistor. 
+- DONE: At least add a 10uF, 100nF on voltage input and after buck converters.
+- DONE: Change name in schematic for gauge sensor to HSCMRRV001PG2A3 
+- DONE: Replace existing USART-3 connector with Pixhawk standard JST-GH 6 pin Connector to connect and supply simpleRTK2B+heading modules.  1: 5V_IN, 2: RX (3.3V level), 3: TX (3.3V level), 4,5: Not connected, 6: GND
+- DONE: Detect hardware version with an adc input. Might use new GNSS-Reset or CAN2 pullup?
+Check for missing GPS_RESET pullup to detect the first or newer version. Use ADC123_IN11 to distinguish between 2nd and future versions. 50% for 2nd version. 
+- DONE: Decrease testpoint size to 1mm
+- DONE: Sense supply voltage before ferit.
+- DONE: Remove one MS5611 sensor
+
 - Why does the M9N needs a separate VDD_USB supply?
-- Check ferrit bead current rating. Saturation!    
-- Change CAN1 to CAN2 so that the build in STM CAN-Bootloader can be used for flashing.    
 - Move sd-card as far as possible to the pcb edge.
 - Add text to mark default direction of flight on the pcb. 
 - Fuses between RJ45 12V connections. 
-- Remove one MS5611 sensor
 - MS5611 do not rote between pins! Correct Layout
-- Remove cheap Gyro / ACC IMU as there will e.g. be a SparkFun 9DoF IMU Breakout. Keep expensive xSense Footprint.   
 - GNSS antenna connection on pcb is slightly above the critical length: https://www.youtube.com/watch?v=_Hfzq1QES-Q  Consider when changing to U.FL
-- Add a switch for boot0 at the pcb edge. 
 - Add one user switch at the pcb edge. 
-- Add GNSS reset pullup resistor.  
-- At least add a 10uF, 100nF on voltage input and after buck converters.  
-- Sense supply voltage before ferit and add a slow lowpass filter.   
-- Decrease testpoint size 
 - Improve solderability of GNSS ground pads. 
-- Detect hardware version with an adc input. Might use new GNSS-Reset or CAN2 pullup?
-- Change name in schematic for gauge sensor to HSCMRRV001PG2A3 
- - Replace existing USART-3 connector with Pixhawk standard JST-GH 6 pin Connector to connect and supply simpleRTK2B+heading modules.  1: 5V_IN, 2: RX (3.3V level), 3: TX (3.3V level), 4,5: Not connected, 6: GND
+
 
 ## Design decisions which wont be chaged for version 2:
 - RJ45 CAN does not use "one" single "twisted pair" but two in a standard patch cable.
