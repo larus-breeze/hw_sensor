@@ -32,7 +32,13 @@ Check for missing GPS_RESET pullup to detect the first or newer version. Use ADC
 - DONE: Decrease testpoint size to 1mm
 - DONE: Sense supply voltage before ferit.
 - DONE: Remove one MS5611 sensor
+- DONE: 3.3VA voltage supply
 
+- move testpoints to backside
+- change RJ45 connectors
+- u.fl connector
+- status led name labeling 
+- can some connectors be removed to save space?  (usart1,2,6, ), 
 - Why does the M9N needs a separate VDD_USB supply?
 - Move sd-card as far as possible to the pcb edge.
 - Add text to mark default direction of flight on the pcb. 
