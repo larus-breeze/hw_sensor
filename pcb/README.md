@@ -75,7 +75,7 @@ https://de.rs-online.com/web/p/drucksensor-ics/2269696
 - RJ45: C86575, C86577(only plastics),  or Mouser: RJHSE-5380 (Audio HW)  check magnetic? 
 - U.FL IPEX: C88373
 - CH340E: C99652
-- ESP32: C99652 (4MB),  C701346 (16MB)
+- ESP32: C701346 (16MB)
 - Switch (Boot0, User) :   C480257(small), C493051(big)
 
 
