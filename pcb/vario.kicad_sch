@@ -14513,7 +14513,7 @@
     (in_bom yes) (on_board yes)
     (uuid 97142d3f-5de8-4935-85ef-1fa22ff29123)
     (property "Reference" "JP5" (id 0) (at 142.24 17.78 0))
-    (property "Value" "SolderJumper_5V_Buck" (id 1) (at 140.335 20.955 0))
+    (property "Value" "5V_Buck_EN" (id 1) (at 140.335 20.955 0))
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 142.24 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -16421,7 +16421,7 @@
       (reference "JP4") (unit 1) (value "NRST_CTRL_EN") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/97142d3f-5de8-4935-85ef-1fa22ff29123"
-      (reference "JP5") (unit 1) (value "SolderJumper_5V_Buck") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+      (reference "JP5") (unit 1) (value "5V_Buck_EN") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/f46a663b-6fa9-49aa-8a61-b85d9714874a"
       (reference "JP6") (unit 1) (value "ESP_UART0_RX") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
