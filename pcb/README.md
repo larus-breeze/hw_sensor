@@ -13,9 +13,6 @@
 - Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
 - RC low-pass for SDIO interface. Which frequency?
 - ESD-diode at voltage supply input. 
-- Add ESP protection for CH340E USB connection
-- Add solder jumper (default closed) on CH340 TXD pin.   (Default shall be the USB connection) 
-- Adjust R28 1k 5V Supply LED resistor.
 - Why does the M9N needs a separate VDD_USB supply? Try to find a smaller LDO to save space. 
 - Add one user switch at the pcb edge. Use-Case ? 
 
@@ -49,6 +46,9 @@
 - DONE: Connect USB, RJ45 schields and aluminium enclosure together (Shield_GND). Connect Shield_GND with ferrit to GND. 
 - DONE: Connect aluminium enclosure on one side to the PCB.
 - DONE: 7x C77096 (4.7u 1206 Package) on the input side of the Buck Converter. Remove 10uF and 22uF. 
+- DONE: Adjust R28 1k 5V Supply LED resistor.
+- DONE: Add ESP protection for CH340E USB connection
+- DONE: Add solder jumper (default closed) on CH340 TXD pin.   (Default shall be the USB connection) 
 
 
 # Design decisions which wont be chaged for version 2:
