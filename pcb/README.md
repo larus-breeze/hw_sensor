@@ -11,7 +11,6 @@
 
 # TODOs for hardware version 2.0
 - Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
-- 7x C77096 (4.7u 1206 Package) on the input side of the Buck Converter. Remove 10uF and 22uF. 
 - RC low-pass for SDIO interface. Which frequency?
 - ESD-diode at voltage supply input. 
 - Add ESP protection for CH340E USB connection
@@ -49,6 +48,7 @@
 - DONE: Connect differential pressure supply to analog voltage and beautify schematic symbol. 
 - DONE: Connect USB, RJ45 schields and aluminium enclosure together (Shield_GND). Connect Shield_GND with ferrit to GND. 
 - DONE: Connect aluminium enclosure on one side to the PCB.
+- DONE: 7x C77096 (4.7u 1206 Package) on the input side of the Buck Converter. Remove 10uF and 22uF. 
 
 
 # Design decisions which wont be chaged for version 2:
