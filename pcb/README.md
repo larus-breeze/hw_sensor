@@ -14,7 +14,6 @@
 - 7x C77096 (4.7u 1206 Package) on the input side of the Buck Converter. Remove 10uF and 22uF. 
 - RC low-pass for SDIO interface. Which frequency?
 - ESD-diode at voltage supply input. 
-- Connect differential pressure supply to analog voltage and beautify schematic symbol. 
 - Add ESP protection for CH340E USB connection
 - Add solder jumper (default closed) on CH340 TXD pin.   (Default shall be the USB connection) 
 - Adjust R28 1k 5V Supply LED resistor.
@@ -49,6 +48,7 @@
 - DONE: change RJ45 connectors
 - DONE: u.fl connector
 - DONE: status led name labeling
+- DONE: Connect differential pressure supply to analog voltage and beautify schematic symbol. 
 
 
 # Design decisions which wont be chaged for version 2:
