@@ -17,8 +17,6 @@
 - Add ESP protection for CH340E USB connection
 - Add solder jumper (default closed) on CH340 TXD pin.   (Default shall be the USB connection) 
 - Adjust R28 1k 5V Supply LED resistor.
-
-- Connect aluminium enclosure on one side to the PCB.
 - Why does the M9N needs a separate VDD_USB supply? Try to find a smaller LDO to save space. 
 - Add one user switch at the pcb edge. Use-Case ? 
 
@@ -50,6 +48,7 @@
 - DONE: status led name labeling
 - DONE: Connect differential pressure supply to analog voltage and beautify schematic symbol. 
 - DONE: Connect USB, RJ45 schields and aluminium enclosure together (Shield_GND). Connect Shield_GND with ferrit to GND. 
+- DONE: Connect aluminium enclosure on one side to the PCB.
 
 
 # Design decisions which wont be chaged for version 2:
