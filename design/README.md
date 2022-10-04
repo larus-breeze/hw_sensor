@@ -11,7 +11,7 @@
 - 102mA max @85°C STM32F407 
 - 200mA max peak Micro SD
 - 100mA peak max M9N GNSS
-- 310mA ESP32 (70mA CPU, 240mA Wifi full power) 
+- 130 - 310mA ESP32 (70mA CPU + 240mA Wifi full power or 60mA bluetooth connected) 
 - 33mA xSense MTi1 IMU
 - 1.4mA peak MS5611
 - 2.8mA peak HSCMRRN001PG2A3 absolute pressure sensing    HSCMRRD001PG2A3 (with diagnostics), HSCMRRV001PG2A3(with diagnostics and port 1 also for liquid) <= newer alternative 2022.07.26: available at Farnell and rs-online.com
