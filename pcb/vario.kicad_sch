@@ -7180,7 +7180,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f462d9fc-564a-424a-9cdb-d4654197a2ba)
   )
-  (text "TODO: \nThese USB-Connections do not make sense with\na 5V Output Buck Regulator! \nShall we just disable supply through USB?\nVoltage input after TPMP2359 is not allowed."
+  (text "TODO: \nThese USB-Connections do not make sense with\na 5V Output Buck Regulator! \nShall we just disable supply through USB?\nVoltage input after TPMP2359 is not allowed.\n\nUSB 5V Input after Schottky B5817WS 0.45V @ 1A. \n(C123899). \nGNSS Pixhawk connector supply before diode to \nget the full 5V?    \n\nWould require a LDO with lower dropout \nvoltage:\n\nDropout Voltages max:\n\nAMS1117-3-3 = 1.3V! \nSK6013BS5-33 = 220mV\nXC6206P33 = 680mV\n"
     (at 23.876 8.128 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f7ec1467-ad3b-4e5e-b137-b8532c8d0b76)
@@ -15754,9 +15754,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c97a51f7-c87a-4433-bfce-523078358521))
-    (pin "2" (uuid e98c0f7d-2ddc-414e-8eda-3f6702d9af02))
+    (pin "2" (uuid e98c0f7d-2ddc-414e-8eda-3f6702d9af03))
     (pin "3" (uuid e68fab98-fffa-4c17-ac35-aadd7326d2dd))
-    (pin "2" (uuid e98c0f7d-2ddc-414e-8eda-3f6702d9af02))
+    (pin "2" (uuid e98c0f7d-2ddc-414e-8eda-3f6702d9af03))
     (pin "4" (uuid 60c0a0c6-154b-4e94-b9cd-7c2b8150606b))
   )
 
