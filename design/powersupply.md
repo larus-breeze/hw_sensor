@@ -88,7 +88,12 @@ If the supply noise is too large we could switch to the TPS7A94 (Texas Instrumen
 
 ### Design 
       +------------\   />-------
-      |      R     -----  Q   
+      |            -----  Q   
+      |              |        |
+      |             ___       |
+      |            |   |      |
+      |            |   | 100R |
+      |      R     |___|      |
       |    _____     |        | 
     --+---|_____|----+        |
                      |        | Vout
