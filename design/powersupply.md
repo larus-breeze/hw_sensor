@@ -119,7 +119,12 @@ reuse of i2C pullups (2k2 (JLCPCB C25879)) and the capacitor of the LDO (1u 0805
 
 ### TODO
 
-- [ ] add Murata NFM21PC105B1C3D (LCSC# C92518)  in front of each analog component
+- [ ] add Murata NFM21PC105B1C3D (LCSC# C92518) in front of each analog component
 
 
+## Digital LDO
+
+### TODO
+
+- [ ] calculate maximum powerdisipation
 
