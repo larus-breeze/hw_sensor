@@ -10,7 +10,6 @@
 
 
 # TODOs for hardware version 2.0
-- Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
 - RC low-pass for SDIO interface. Which frequency?
 - ESD-diode at voltage supply input. 
 - Why does the M9N needs a separate VDD_USB supply? Try to find a smaller LDO to save space. 
@@ -27,6 +26,7 @@
 - Improve solderability of GNSS ground pads with thermal reliefs. 
 
 ## Done
+- DONE: Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
 - DONE: Filter C for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
 - DONE: Check ferrit bead current rating. Saturation!
 - DONE: Remove cheap Gyro / ACC IMU as there will e.g. be a SparkFun 9DoF IMU Breakout. Keep expensive xSense Footprint.   

@@ -7438,8 +7438,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67be54d7-c509-4f17-972f-d90bd5e86e13)
   )
-  (text "TODO:\nthink about removing the GNSS LDO, I tend to remove it. \nIs it a problem if there is only power on VDD_USB \nand not on VCC? \ne.g. sparkfun does not use separate \nldos: https://cdn.sparkfun.com/assets/1/0/a/8/a/SparkFun_GPS_NEO_M9N_SMA_UPDATE.pdf"
-    (at 168.148 5.2324 0)
+  (text "TODO:\nthink about removing the GNSS LDO, I tend to remove it. \nIs it a problem if there is only power on VDD_USB \nand not on VCC? \ne.g. sparkfun does not use separate \nldos: https://cdn.sparkfun.com/assets/1/0/a/8/a/SparkFun_GPS_NEO_M9N_SMA_UPDATE.pdf\n\nTest with the 1st Hw-Version and an interrupted + line in the\nmicro USB cable. Permanently supply 5V to the USB LDO. \nTest if GNSS USB connection still works flawless "
+    (at 166.8272 -3.0988 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ff063e5-b2fa-4a37-99f0-f1433d18913e)
   )
@@ -14025,7 +14025,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 220.1672 32.5628 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b9e3616-260d-4727-9333-b1aad799fbfb)
-    (property "Reference" "D13" (id 0) (at 223.6216 33.7312 0)
+    (property "Reference" "D13" (id 0) (at 225.044 34.3408 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819WS" (id 1) (at 225.2472 30.0228 0)
