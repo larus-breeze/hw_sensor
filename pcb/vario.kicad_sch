@@ -6,7 +6,7 @@
 
   (title_block
     (title "Larus Sensor")
-    (date "2022-10-04")
+    (date "2022-11-08")
     (rev "2.0")
     (company "Maximilian Betz")
     (comment 1 "Second Version of Schematic")
@@ -7789,6 +7789,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6474aa6c-825c-4f0f-9938-759b68df02a5)
   )
+  (text "Test ESP Autoprogram ! " (at 266.9286 294.132 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 67280a9c-96b0-4039-b0d9-e627242cc836)
+  )
   (text "TODO:\ndesign and add MS5611\nmilled pressure \nconnection symbol"
     (at 327.3552 4.572 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -7799,7 +7803,7 @@
     (uuid 79fa940a-2b5a-472f-9a29-806c2daad595)
   )
   (text "TODO:\nCAN: Change CAN_H or CAN_L so that the pins use\na twisted paar cable. "
-    (at -4.572 178.816 180)
+    (at -11.049 174.3202 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f15f325-8159-4e5a-9e39-e2c47c711ab0)
   )
@@ -7870,11 +7874,6 @@
   (text "Debug & Development Connectors" (at 163.83 212.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af186015-d283-4209-aade-a247e5de01df)
-  )
-  (text "TODO:\nthink about moving all ESP \nbuttons to the pcb edge"
-    (at -7.366 200.9648 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b3695e4b-6b97-4537-87f9-69180575c356)
   )
   (text "Possible alternatives:\nSN65HVD232DR\nTCAN332DR" (at 319.6844 205.7908 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -15735,7 +15734,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 306.959 216.0016 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a55f1c74-13d9-4ef1-bc8a-797c2c0e3394)
-    (property "Reference" "JP15" (id 0) (at 311.912 215.9254 90)
+    (property "Reference" "JP15" (id 0) (at 313.563 216.1794 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESPAUTOPROGRAMEN" (id 1) (at 305.562 216.0016 90)
