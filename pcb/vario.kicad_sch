@@ -13030,7 +13030,7 @@
     (uuid 00000000-0000-0000-0000-0000606dcafb)
     (property "Reference" "R4" (id 0) (at 55.118 38.862 0))
     (property "Value" "100k" (id 1) (at 55.753 41.148 0))
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (id 2) (at 52.578 39.878 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 52.578 39.878 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 52.578 39.878 0)
@@ -17781,7 +17781,7 @@
       (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606dcafb"
-      (reference "R4") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R4") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-0000606daea0"
       (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
