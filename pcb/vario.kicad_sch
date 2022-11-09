@@ -6,7 +6,7 @@
 
   (title_block
     (title "Larus Sensor")
-    (date "2022-11-08")
+    (date "2022-11-09")
     (rev "2.0")
     (company "Maximilian Betz")
     (comment 1 "Second Version of Schematic")
@@ -5088,6 +5088,7 @@
   (no_connect (at 173.355 230.505) (uuid 03dbcb33-9ca6-4953-a6e0-e51d79c497f2))
   (no_connect (at 32.512 187.452) (uuid 0850d44a-6bde-4886-b872-ef2fda5e1590))
   (no_connect (at 78.232 263.652) (uuid 10a7d7ef-d6be-484c-be36-2908e6c77393))
+  (no_connect (at 290.5252 317.2206) (uuid 138fa3b3-3645-488b-b7ba-4629dae7671d))
   (no_connect (at 32.512 217.932) (uuid 1509b6e6-a266-4bd3-bef6-1700f12ad930))
   (no_connect (at 32.512 200.152) (uuid 1e0743f9-25f1-4e27-8ba3-1bbc1755dc6c))
   (no_connect (at 32.512 195.072) (uuid 2a6f1b1e-6809-43d7-b0c5-e4424e33d333))
@@ -7821,12 +7822,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6474aa6c-825c-4f0f-9938-759b68df02a5)
   )
-  (text "Test ESP Autoprogram ! " (at 266.9286 294.132 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 67280a9c-96b0-4039-b0d9-e627242cc836)
-  )
   (text "TODO:\ndesign and add MS5611\nmilled pressure \nconnection symbol"
-    (at 327.3552 4.572 0)
+    (at 327.3552 7.5692 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67be54d7-c509-4f17-972f-d90bd5e86e13)
   )
@@ -7835,7 +7832,7 @@
     (uuid 79fa940a-2b5a-472f-9a29-806c2daad595)
   )
   (text "TODO:\nCAN: Change CAN_H or CAN_L so that the pins use\na twisted paar cable. "
-    (at -11.049 174.3202 180)
+    (at -1.6002 192.1256 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f15f325-8159-4e5a-9e39-e2c47c711ab0)
   )
@@ -7873,7 +7870,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98f64d04-8397-442c-9f89-35901d802819)
   )
-  (text "TODO:\ntry to finde edge LEDs " (at 286.766 4.6736 0)
+  (text "TODO:\ntry to finde edge LEDs " (at 277.5712 6.604 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a1ac0574-fae3-469b-bc39-41ac08dd9080)
   )
@@ -7931,7 +7928,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f462d9fc-564a-424a-9cdb-d4654197a2ba)
   )
-  (text "TODO: \nThese USB-Connections do not make sense with\na 5V Output Buck Regulator! \nShall we just disable supply through USB?\nVoltage input after TPMP2359 is not allowed.\n\nUSB 5V Input after Schottky B5817WS 0.45V @ 1A. \n(C123899). \nGNSS Pixhawk connector supply before diode to \nget the full 5V?    \n\nWould require a LDO with lower dropout \nvoltage:\n\nDropout Voltages max:\n\nAMS1117-3-3 = 1.3V! \nSK6013BS5-33 = 220mV\nXC6206P33 = 680mV\n\nAlternative LDOs:\nSPX3940\nXC6220\n"
+  (text "TODO: \nThese USB-Connections do not make sense with\na 5V Output Buck Regulator! \nShall we just disable supply through USB?\nVoltage input after TPMP2359 is not allowed.\n\nUSB 5V Input after Schottky B5817WS 0.45V @ 1A. \n(C123899). \nGNSS Pixhawk connector supply before diode to \nget the full 5V?    \n\nWould require a LDO with lower dropout \nvoltage:\n\nDropout Voltages max:\n\nAMS1117-3-3 = 1.3V! \nSK6013BS5-33 = 220mV\n\nAlternative LDOs:\nSPX3940\nXC6220"
     (at 23.876 8.128 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f7ec1467-ad3b-4e5e-b137-b8532c8d0b76)
