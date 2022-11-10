@@ -10,11 +10,9 @@
 
 
 # TODOs for hardware version 2.0
-- RC low-pass for SDIO interface. Which frequency?
 - ESD-diode at voltage supply input. 
-- Why does the M9N needs a separate VDD_USB supply? Try to find a smaller LDO to save space. 
+- Redesign DC-DC to SEPIC converter. 
 - Add one user switch at the pcb edge. Use-Case ? 
-
 
 ## For the PCB Layout
 - move testpoints to backside
@@ -24,6 +22,7 @@
 - MS5611 do not rote between pins! Correct Layout
 - GNSS antenna connection on pcb is slightly above the critical length: https://www.youtube.com/watch?v=_Hfzq1QES-Q  Consider when changing to U.FL
 - Improve solderability of GNSS ground pads with thermal reliefs. 
+- add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
 
 ## Done
 - DONE: Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
