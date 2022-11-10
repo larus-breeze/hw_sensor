@@ -83,3 +83,8 @@ https://de.rs-online.com/web/p/drucksensor-ics/2269696
 - Switch (Boot0, User) :   C480257(small), C493051(big)
 
 
+
+## Other Links:
+- Differential Pair design: https://www.digikey.com/en/maker/projects/how-to-route-differential-pairs-in-kicad-for-usb/45b99011f5d34879ae1831dce1f13e93
+- https://cart.jlcpcb.com/impedanceCalculation
+
