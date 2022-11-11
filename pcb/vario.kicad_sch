@@ -4498,7 +4498,6 @@
     )
   )
 
-
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -7806,6 +7805,11 @@
     (at -1.6002 192.1256 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7f15f325-8159-4e5a-9e39-e2c47c711ab0)
+  )
+  (text "TODO:\nTPS61170DRVR To boost USB voltage to \n12V before inserting it into the 5V buck. "
+    (at 207.391 5.8928 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 89530134-6748-4413-b6c0-50a2b42df982)
   )
   (text "RJ45 compatible:\n- DS1128-06-S8B0P-X\n- RJHSE5380" (at 134.9756 282.6512 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -15590,8 +15594,8 @@
     (pin "1" (uuid 70517c84-7c6b-4380-86ed-1f4c34ddb1b4))
     (pin "2" (uuid 1be8d613-89ec-4afc-ba6f-95170ac5b3bd))
     (pin "3" (uuid fa5828d3-b18a-4ade-883a-aad02de32d3d))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a408))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a408))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a409))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a409))
   )
 
   (symbol (lib_id "Device:C_Small") (at 160.782 35.56 0) (unit 1)
