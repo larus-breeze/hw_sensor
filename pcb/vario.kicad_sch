@@ -6,7 +6,7 @@
 
   (title_block
     (title "Larus Sensor")
-    (date "2022-11-09")
+    (date "2022-11-13")
     (rev "2.0")
     (company "Maximilian Betz")
     (comment 1 "Second Version of Schematic")
