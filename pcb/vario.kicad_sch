@@ -4498,6 +4498,7 @@
     )
   )
 
+
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -5060,6 +5061,7 @@
   (no_connect (at 32.512 187.452) (uuid 0850d44a-6bde-4886-b872-ef2fda5e1590))
   (no_connect (at 78.232 263.652) (uuid 10a7d7ef-d6be-484c-be36-2908e6c77393))
   (no_connect (at 32.512 217.932) (uuid 1509b6e6-a266-4bd3-bef6-1700f12ad930))
+  (no_connect (at 78.232 243.332) (uuid 18913da9-ef31-4314-92b5-8c983d3fd33a))
   (no_connect (at 32.512 200.152) (uuid 1e0743f9-25f1-4e27-8ba3-1bbc1755dc6c))
   (no_connect (at 32.512 195.072) (uuid 2a6f1b1e-6809-43d7-b0c5-e4424e33d333))
   (no_connect (at 283.2862 220.1672) (uuid 2cedb7df-0da4-42b4-b455-8f1da103fef1))
@@ -5094,6 +5096,7 @@
   (no_connect (at 261.62 108.585) (uuid 9fb9a654-045f-4c58-ba9d-e6e9d641e3ae))
   (no_connect (at 187.325 102.235) (uuid b09870ad-8985-4a1c-a7b1-3acb9a1b9282))
   (no_connect (at 32.512 220.472) (uuid b1631ef5-5ba5-48ed-9e83-a55482a37a65))
+  (no_connect (at 78.232 240.792) (uuid b1ce13a6-f454-4f5f-b407-e15bfa0df3fa))
   (no_connect (at 78.232 261.112) (uuid b540f997-cabb-4061-85a0-370b4e9dd03a))
   (no_connect (at 220.345 84.455) (uuid b9272e8b-2d00-4d6b-ae8c-fd62ef331586))
   (no_connect (at 170.688 164.211) (uuid bb9df873-814c-493f-a85c-b3bdac7d501f))
@@ -7913,13 +7916,6 @@
     (uuid fc12372f-6e31-40f9-8043-b00b861f0171)
   )
 
-  (global_label "USART6_RX" (shape input) (at 25.654 282.702 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 01657d30-6f8e-4bbd-a3dd-6a0742c69aca)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -192.786 24.892 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
   (global_label "NRST" (shape input) (at 87.0458 85.3948 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 017667a9-f5de-49c7-af53-4f9af2f3a311)
@@ -8330,13 +8326,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4648968b-aa58-4f57-8f45-54b088364670)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 692.3024 244.0178 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "USART6_TX" (shape input) (at 78.232 240.792 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 478afa34-e0e2-4584-885c-121c8a802996)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -6.858 0.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -8886,13 +8875,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "USART6_TX" (shape input) (at 25.4 279.908 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a6460cc6-b11c-4dff-a0ea-9de680e68ca8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -193.04 24.638 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
   (global_label "SPI1_MOSI" (shape input) (at 78.232 156.972 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a6d1221a-1077-412d-8a73-7025f9b4ca20)
@@ -9198,13 +9180,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e342f8d7-ca8a-47a5-a679-3c984454e9a5)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -197.1294 167.132 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (global_label "USART6_RX" (shape input) (at 78.232 243.332 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e8e23712-f080-4685-ae22-9028780f7b13)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -6.858 0.762 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -14062,7 +14037,7 @@
   (symbol (lib_id "power:+3.3VA") (at 375.2342 72.7964 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 23109787-9cb9-4a72-821d-81181c8899c9)
-    (property "Reference" "#PWR?" (id 0) (at 375.2342 76.6064 0)
+    (property "Reference" "#PWR029" (id 0) (at 375.2342 76.6064 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (id 1) (at 375.2342 68.9864 0))
@@ -15137,7 +15112,7 @@
   (symbol (lib_id "power:+3.3VA") (at 353.4156 73.1774 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7afe236e-a74e-4d8b-9e04-a3e9c7100387)
-    (property "Reference" "#PWR?" (id 0) (at 353.4156 76.9874 0)
+    (property "Reference" "#PWR023" (id 0) (at 353.4156 76.9874 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (id 1) (at 353.4156 69.3674 0))
@@ -15375,22 +15350,6 @@
     )
     (pin "1" (uuid 0fe94448-518e-452e-9457-fc02c1644547))
     (pin "2" (uuid 4f276f73-85e2-4e12-b877-fd588c1a2c81))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 25.4 279.908 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 908b4741-3830-4d00-a26f-03f34755c622)
-    (property "Reference" "TP17" (id 0) (at 31.496 279.908 90))
-    (property "Value" "U6_TX" (id 1) (at 36.068 279.908 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (id 2) (at 25.4 284.988 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 25.4 284.988 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc083471-d31c-4b5d-b434-25cd033ef3dd))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 215.392 269.24 0) (unit 1)
@@ -16009,22 +15968,6 @@
     (pin "1" (uuid 4c4b563e-0b05-493d-8c81-ef92be413d0a))
     (pin "2" (uuid 2ee85cf4-8d40-4cbc-84fb-a843ddcfb8a8))
     (pin "3" (uuid 7d6560e5-f8af-4329-90a7-a36a50e1ae3b))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 25.654 282.702 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid bcdff668-91c0-493d-b1d1-39809416fbea)
-    (property "Reference" "TP22" (id 0) (at 31.75 282.702 90))
-    (property "Value" "U6_RX" (id 1) (at 36.576 282.702 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (id 2) (at 25.654 287.782 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 25.654 287.782 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0ba554b6-8646-46cd-9322-5199ff27da64))
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 116.332 160.274 90) (unit 1)
@@ -17055,6 +16998,9 @@
     (path "/982553a2-3b4f-49c1-8f88-77b050d3fee4"
       (reference "#PWR022") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/7afe236e-a74e-4d8b-9e04-a3e9c7100387"
+      (reference "#PWR023") (unit 1) (value "+3.3VA") (footprint "")
+    )
     (path "/b832d8d2-1f68-4493-83c7-f636bc6bdd2f"
       (reference "#PWR024") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -17069,6 +17015,9 @@
     )
     (path "/b1d2d56e-96a1-4ce4-90a5-0ac7164d3876"
       (reference "#PWR028") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/23109787-9cb9-4a72-821d-81181c8899c9"
+      (reference "#PWR029") (unit 1) (value "+3.3VA") (footprint "")
     )
     (path "/089d440f-9a99-447d-8d70-f63e7c98e779"
       (reference "#PWR030") (unit 1) (value "GNDSHIELD") (footprint "")
@@ -17414,12 +17363,6 @@
     )
     (path "/2b36a2c5-cfe4-4438-bb92-45047e85215e"
       (reference "#PWR0182") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/23109787-9cb9-4a72-821d-81181c8899c9"
-      (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
-    )
-    (path "/7afe236e-a74e-4d8b-9e04-a3e9c7100387"
-      (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f743499"
       (reference "C1") (unit 1) (value "4u7") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -17979,9 +17922,6 @@
     (path "/00000000-0000-0000-0000-0000610ece5c"
       (reference "TP16") (unit 1) (value "MAX323_C1-") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
-    (path "/908b4741-3830-4d00-a26f-03f34755c622"
-      (reference "TP17") (unit 1) (value "U6_TX") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
     (path "/00000000-0000-0000-0000-0000610d2566"
       (reference "TP18") (unit 1) (value "MAX323_C2+") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
@@ -17993,9 +17933,6 @@
     )
     (path "/00000000-0000-0000-0000-0000610e91c9"
       (reference "TP21") (unit 1) (value "MAX323_VS+") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/bcdff668-91c0-493d-b1d1-39809416fbea"
-      (reference "TP22") (unit 1) (value "U6_RX") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/ec82f63d-3817-480c-94fb-384985ec6af9"
       (reference "TP23") (unit 1) (value "3V3") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
