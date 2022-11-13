@@ -21,6 +21,7 @@
 - MS5611 do not rote between pins! Correct Layout
 - Improve solderability of GNSS ground pads with thermal reliefs. 
 - add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
+- consider changing the i2c connectors to QWIIC pinout JST 1mm.  (1)GND, VSS, SDA, (4)SCL 
 
 ## Done
 - DONE: Move sd-card as far as possible to the pcb edge.
