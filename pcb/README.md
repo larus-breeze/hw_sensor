@@ -10,7 +10,7 @@
 
 
 # TODOs for hardware version 2.0
-- ESD-diode at voltage supply input. Which one?
+- ESD-diode at voltage supply input. GNSS Antenna? Which one?
 - Replace the diodes with a lower forward voltage ones.
 - Boost Converter to Boost USB Voltage: TPS61170DRVR Inductors: 10uH 1.5A: C340393, 
 - Sepic converster e.g. LM3488 for 3... 24V input  -> 5V output? Maybe for next hw version!
