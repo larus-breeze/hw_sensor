@@ -10,18 +10,18 @@
 
 
 # TODOs for hardware version 2.0
-- ESD-diode at voltage supply input. 
-- Redesign DC-DC to SEPIC converter or add a boost converter (e.g.) TPS61170DRVR to boost the usb voltage to 12V to ensure that there is always a stable 5V for the 3.3VA supply filter. 
+- ESD-diode at voltage supply input. Which one?
+- Replace the diodes with a lower forward voltage ones.
+- Boost Converter to Boost USB Voltage: TPS61170DRVR Inductors: 10uH 1.5A: C340393, 
+- Sepic converster e.g. LM3488 for 3... 24V input  -> 5V output? Maybe for next hw version!
+- Check ptc fuse max current when supplied via USB at 1A?
 - Add one user switch at the pcb edge. Check Use-Case ? 
-- Shall the RJ45 and USB sockets overhang the PCB edge and how much?
-- Design milled preassure connector for static and pitot. 
-- move testpoints to backside
-- can some connectors be removed to save space or replaced by testpoints? (usart2,6,  can2), 
 - Add text to mark default direction of flight on the pcb. 
 - MS5611 do not rote between pins! Correct Layout
 - Improve solderability of GNSS ground pads with thermal reliefs. 
 - add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
 - consider changing the i2c connectors to QWIIC pinout JST 1mm.  (1)GND, VSS, SDA, (4)SCL 
+- change to a not so much "oversized" inductor? 
 
 ## Done
 - DONE: Move sd-card as far as possible to the pcb edge.
