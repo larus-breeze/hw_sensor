@@ -11,9 +11,7 @@
 
 # TODOs for hardware version 2.0
 - ESD-diode at voltage supply input. GNSS Antenna? Which one?
-- Replace the diodes with a lower forward voltage ones.
-- Boost Converter to Boost USB Voltage: TPS61170DRVR Inductors: 10uH 1.5A: C340393, 
-- Sepic converster e.g. LM3488 for 3... 24V input  -> 5V output? Maybe for next hw version!
+- How to connect the shield gnd.?  Complete shield GND circle around PCB? 
 - Check ptc fuse max current when supplied via USB at 1A?
 - Add one user switch at the pcb edge. Check Use-Case ? 
 - Add text to mark default direction of flight on the pcb. 
@@ -21,9 +19,12 @@
 - Improve solderability of GNSS ground pads with thermal reliefs. 
 - add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
 - consider changing the i2c connectors to QWIIC pinout JST 1mm.  (1)GND, VSS, SDA, (4)SCL 
-- change to a not so much "oversized" inductor? 
+
 
 ## Done
+- DONE: Change RJ45 CAN pinout so that a real twisted pair is used.
+- DONE: Replace the diodes with a lower forward voltage ones.
+- DONE: Boost Converter to Boost USB Voltage: TPS61170DRVR Inductors: 10uH 1.5A: C340393, 
 - DONE: Move sd-card as far as possible to the pcb edge.
 - DONE: Redesign 3.3VA voltage supply with a separate LDO after the 5V Buck.
 - DONE: Filter C for R1 on DC-DC regulators: 15PF here: https://www.researchgate.net/figure/The-circuit-structure-of-the-MP2359-power-supply_fig24_330912026  Put a 0603 footprint. 
@@ -52,6 +53,7 @@
 
 
 # Design decisions which wont be chaged for version 2:
+- Sepic converster e.g. LM3488 for 3... 24V input  -> 5V output? Maybe for next hw version!
 - RJ45 CAN does not use "one" single "twisted pair" but two in a standard patch cable.
 - Alternative Debug Connector TC2030-CTX-NL-STDC14 : https://www.tag-connect.com/solutions-target-devices/arm#s0
 - Shall the sd-card power supply switchable? 
