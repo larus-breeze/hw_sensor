@@ -10,19 +10,20 @@
 
 
 # TODOs for hardware version 2.0
-- Add a LED for 3.3VA voltage check?
-- ESD-diode at voltage supply input and GNSS antenna.  
-- How to connect the shield gnd.?  Complete shield GND circle around PCB? 
-- Check ptc fuse max current when supplied via USB at 1A?
+- Larus logo and name on silkscreen. 
+- Add text to mark default direction of flight on the pcb.
+- Current limiting of GNSS antenna feed with C8542 and https://content.u-blox.com/sites/default/files/ZED-F9P_IntegrationManual_UBX-18010802.pdf page 88
+- Connect shield gnd to RJ45. Connect USB with ferrit to GND. Remove long shield gnd from pdb edge. Provide a shield GND solder point to connect the enclosure. 
 - Add one user switch at the pcb edge. Check Use-Case ? 
-- Add text to mark default direction of flight on the pcb. 
-- MS5611 routing not between pins!
+- MS5611 routing not between pins! Should there be a handsoldering footprint with long pads? 
 - Improve solderability of GNSS ground pads with thermal reliefs. 
-- add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
-- consider changing the i2c connectors to QWIIC pinout JST 1mm.  (1)GND, VSS, SDA, (4)SCL 
+- Add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
 
 
 ## Done
+- DONE: Added a LED to 3.3VA
+- DONE: ESD-diodes at voltage supply input and GNSS antenna.
+- DONE: changed ptc fuse with a suitable current 
 
 - DONE: Change RJ45 CAN pinout so that a real twisted pair is used.
 - DONE: Replace the diodes with a lower forward voltage ones.
