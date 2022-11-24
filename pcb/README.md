@@ -12,13 +12,12 @@
 # TODOs for hardware version 2.0
 - Larus logo and name on silkscreen. 
 - Add text to mark default direction of flight on the pcb.
-- Connect shield gnd to RJ45. Connect USB with ferrit to GND. Remove long shield gnd from pdb edge. Provide a shield GND solder point to connect the enclosure. 
-- MS5611 routing not between pins! Should there be a handsoldering footprint with long pads? 
-- Improve solderability of GNSS ground pads with thermal reliefs. 
-- Add mounting holes 4 x  0.8inch distance for sparkfun headers: https://cdn.sparkfun.com/assets/4/a/f/8/9/19895_9DoF_BoardOutline.png
-
 
 ## Done
+- DONE: Separate Shield GND connected with ferrits on the RJ45/USB shields. 
+- DONE: Thermal reliefs on copper fills. 
+- DONE: Added 3 mounting holes 0.8inch distance for sparkfun headers
+- DONE: MS5611 no routing not between pins!
 - DONE: Active current limiting of GNSS antenna feed with C8542 cuircuit taken from https://content.u-blox.com/sites/default/files/ZED-F9P_IntegrationManual_UBX-18010802.pdf
 - DONE: Added a LED to 3.3VA
 - DONE: ESD-diodes at voltage supply input and GNSS antenna.
