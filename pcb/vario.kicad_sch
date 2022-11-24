@@ -6,7 +6,7 @@
 
   (title_block
     (title "Larus Sensor")
-    (date "2022-11-20")
+    (date "2022-11-24")
     (rev "2.0")
     (company "Maximilian Betz")
     (comment 1 "Second Version of Schematic")
@@ -4711,6 +4711,7 @@
     )
   )
 
+
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -8420,11 +8421,6 @@
     (at 114.0714 106.4768 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b130f348-6630-4c3d-a7d9-1aadd9866a2b)
-  )
-  (text "TODO: \nconnect VDDA to digital 3.3V with\nsome simple filtering?"
-    (at -2.1844 135.6614 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b1d8dceb-95e8-459a-820c-9d6fd911fd4f)
   )
   (text "Possible alternatives:\nSN65HVD232DR\nTCAN332DR" (at 319.6844 205.7908 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
