@@ -11,7 +11,8 @@
 
 # TODOs for hardware version 2.0
 - Larus logo and name on silkscreen. 
-- Add text to mark default direction of flight on the pcb.
+- Add text (plane symbol) to mark default direction of flight on the pcb. 
+- Should there be a GND Guard Ring around the PCB or certain areas?
 
 ## Done
 - DONE: Separate Shield GND connected with ferrits on the RJ45/USB shields. 

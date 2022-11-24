@@ -14358,7 +14358,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 139.446 122.936 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1643dac2-9cf2-4196-840f-f4e412b1f4df)
-    (property "Reference" "TP?" (id 0) (at 139.573 117.221 0))
+    (property "Reference" "TP14" (id 0) (at 139.573 117.221 0))
     (property "Value" "GNDSHIELD" (id 1) (at 140.081 112.141 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -19076,6 +19076,9 @@
     (path "/c307cd8e-242f-470d-a1b8-b7b057c9eabc"
       (reference "TP13") (unit 1) (value "GNSS_Antenna_Feed") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
+    (path "/1643dac2-9cf2-4196-840f-f4e412b1f4df"
+      (reference "TP14") (unit 1) (value "GNDSHIELD") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm")
+    )
     (path "/00000000-0000-0000-0000-0000610ec86a"
       (reference "TP15") (unit 1) (value "MAX323_C1+") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
@@ -19108,9 +19111,6 @@
     )
     (path "/cf6222bb-0d93-4c85-8af3-db06db8541e0"
       (reference "TP27") (unit 1) (value "MTi-1-CS") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/1643dac2-9cf2-4196-840f-f4e412b1f4df"
-      (reference "TP?") (unit 1) (value "GNDSHIELD") (footprint "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm")
     )
     (path "/00000000-0000-0000-0000-00005f906fb1"
       (reference "U1") (unit 1) (value "STM32F407VGTx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
