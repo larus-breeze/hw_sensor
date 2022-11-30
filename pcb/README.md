@@ -15,8 +15,9 @@
 - Silkscreen with RJ45 Pinouttable
 - try to put all IMU compass connections on layer 4. 
 - copper gnd fill around MS5611. Improve wiring. 
-- vias and keepout areas around dcdc converters
 - other review findings.
+- change sd clk routing and improve C connection
+- reduce PTC fuse again as smaller one is sufficient
 
 
 ## Done

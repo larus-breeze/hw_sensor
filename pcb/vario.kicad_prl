@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ffeffff_fffffffb",
-    "zone_display_mode": 1
+    "visible_layers": "ffeffff_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "vario.kicad_prl",
