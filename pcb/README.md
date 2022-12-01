@@ -11,8 +11,7 @@
 
 # TODOs for hardware version 2.0
 - Add text (plane symbol) to mark default direction of flight on the pcb. 
-- reduce PTC fuse again as a smaller one is sufficient?
-
+- Add feedthrough capacitors for i2c connectors
 
 ## Done
 - DONE: Larus Symbol on PCB
