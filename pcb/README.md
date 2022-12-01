@@ -11,18 +11,12 @@
 
 # TODOs for hardware version 2.0
 - Add text (plane symbol) to mark default direction of flight on the pcb. 
-- Should there be a GND Guard Ring around the PCB or certain areas?
-- Silkscreen with RJ45 Pinouttable
-- try to put all IMU compass connections on layer 4. 
-- copper gnd fill around MS5611. Improve wiring. 
-- other review findings.
-- change sd clk routing and improve C connection
-- reduce PTC fuse again as smaller one is sufficient
+- reduce PTC fuse again as a smaller one is sufficient?
 
 
 ## Done
 - DONE: Larus Symbol on PCB
-- DONE: Separate Shield GND connected with ferrits on the RJ45/USB shields. 
+- DONE: Separate Shield GND around the PCB connected with one ferrit to GND.
 - DONE: Thermal reliefs on copper fills. 
 - DONE: Added 3 mounting holes 0.8inch distance for sparkfun headers
 - DONE: MS5611 no routing not between pins!
