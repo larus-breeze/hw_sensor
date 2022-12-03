@@ -6,7 +6,7 @@
 
   (title_block
     (title "Larus Sensor")
-    (date "2022-12-01")
+    (date "2022-12-03")
     (rev "2.0")
     (company "Maximilian Betz")
     (comment 1 "Second Version of Schematic")
@@ -4710,6 +4710,7 @@
       )
     )
   )
+
 
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
@@ -11721,7 +11722,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fc62dac)
     (property "Reference" "SW1" (id 0) (at 105.4608 84.5058 0))
-    (property "Value" "STM32_RST" (id 1) (at 105.4608 86.8172 0))
+    (property "Value" "STM_RST" (id 1) (at 105.4608 86.8172 0))
     (property "Footprint" "OWN_Parts_:TS-1187A-C-E-B" (id 2) (at 105.4608 86.6648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -16417,8 +16418,8 @@
     (pin "1" (uuid 70517c84-7c6b-4380-86ed-1f4c34ddb1b4))
     (pin "2" (uuid 1be8d613-89ec-4afc-ba6f-95170ac5b3bd))
     (pin "3" (uuid fa5828d3-b18a-4ade-883a-aad02de32d3d))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a417))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a417))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a418))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a418))
   )
 
   (symbol (lib_id "Device:C_Small") (at 140.589 35.56 0) (unit 1)
@@ -19066,7 +19067,7 @@
       (reference "R54") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc62dac"
-      (reference "SW1") (unit 1) (value "STM32_RST") (footprint "OWN_Parts_:TS-1187A-C-E-B")
+      (reference "SW1") (unit 1) (value "STM_RST") (footprint "OWN_Parts_:TS-1187A-C-E-B")
     )
     (path "/f767d8aa-b327-40ec-a255-ec82aa2e2b2e"
       (reference "SW2") (unit 1) (value "STM32_B0") (footprint "OWN_Parts_:TC-1102DE-X-X")
