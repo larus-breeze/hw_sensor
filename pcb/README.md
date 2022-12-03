@@ -10,7 +10,8 @@
 # TODOs for hardware version 2.0
 - Add text (plane symbol) to mark default direction of flight on the pcb. 
 - Add feedthrough capacitors for i2c connectors
-- Routing on Layer 4 to IMU? Does this make sense as close coppling to the 3.3VA layer. 
+- Routing on Layer 4 to IMU? Does this make sense as close coppling to the 3.3VA layer.
+- Change error led connection to ESP32 pin 
 
 ## Done
 - DONE: Larus Symbol on PCB
