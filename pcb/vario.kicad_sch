@@ -4711,7 +4711,6 @@
     )
   )
 
-
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -16418,8 +16417,8 @@
     (pin "1" (uuid 70517c84-7c6b-4380-86ed-1f4c34ddb1b4))
     (pin "2" (uuid 1be8d613-89ec-4afc-ba6f-95170ac5b3bd))
     (pin "3" (uuid fa5828d3-b18a-4ade-883a-aad02de32d3d))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a416))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a416))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a417))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a417))
   )
 
   (symbol (lib_id "Device:C_Small") (at 140.589 35.56 0) (unit 1)
