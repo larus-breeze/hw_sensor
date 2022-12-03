@@ -11,7 +11,7 @@
 - Add text (plane symbol) to mark default direction of flight on the pcb. 
 - Add feedthrough capacitors for i2c connectors
 - Routing on Layer 4 to IMU? Does this make sense as close coppling to the 3.3VA layer.
-- Change error led connection to ESP32 pin 
+- RJ45 not in stock at JLCPCB find alternative.
 
 ## Done
 - DONE: Larus Symbol on PCB
