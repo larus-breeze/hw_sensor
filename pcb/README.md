@@ -8,11 +8,7 @@
 - Redesigned 3.3VA supply with capacity multiplier and filtering.
 
 # TODOs for hardware version 2.0
-- Add feedthrough capacitors for i2c connectors
-- Routing on Layer 4 to IMU? Does this make sense as close coppling to the 3.3VA layer.
-- RJ45 not in stock at JLCPCB find alternative.
-- Add Can Header for 2nd pcb in enclosure?
-- Not all front silkscreen is printed on production files. Print footprint values when generating gerber files
+
 
 ## Done
 - DONE: Larus Symbol on PCB
