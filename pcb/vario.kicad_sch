@@ -4710,6 +4710,7 @@
     )
   )
 
+
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -16315,6 +16316,23 @@
     (pin "SH" (uuid ae22ebb0-6892-459e-95c5-c6d5aea8c826))
   )
 
+  (symbol (lib_id "OWN_Parts_:mechanics") (at 142.494 127.889 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 8a57f2aa-4ada-464d-99e6-5e25c9747f1b)
+    (property "Reference" "U24" (id 0) (at 145.796 125.4131 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Coordinate " (id 1) (at 145.796 127.9531 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OWN_Parts_:coordinate_sys" (id 2) (at 142.494 127.889 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 142.494 127.889 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 229.87 190.246 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8dc7db76-d7ae-4890-99bd-d84b0f3f2f28)
@@ -19505,6 +19523,9 @@
     )
     (path "/601a60c3-c0f0-4c51-8fd6-f4690e8b3414"
       (reference "U23") (unit 1) (value "Tooling hole") (footprint "OWN_Parts_:jlcpcb_tooling_hole")
+    )
+    (path "/8a57f2aa-4ada-464d-99e6-5e25c9747f1b"
+      (reference "U24") (unit 1) (value "Coordinate ") (footprint "OWN_Parts_:coordinate_sys")
     )
     (path "/00000000-0000-0000-0000-00005f766419"
       (reference "Y1") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
