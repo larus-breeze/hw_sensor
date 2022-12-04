@@ -5,11 +5,10 @@
   (paper "A3")
 
   (title_block
-    (title "Larus Sensor")
-    (date "2022-12-03")
+    (title "Larus Sensor Schematic")
+    (date "2022-12-04")
     (rev "2.0")
     (company "Maximilian Betz")
-    (comment 1 "Second Version of Schematic")
   )
 
   (lib_symbols
@@ -13697,7 +13696,7 @@
     (property "Reference" "#FLG02" (id 0) (at 89.281 24.003 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (id 1) (at 89.281 21.5138 0))
+    (property "Value" "PWR_FLAG" (id 1) (at 91.567 21.717 0))
     (property "Footprint" "" (id 2) (at 89.281 25.908 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -17364,7 +17363,7 @@
     (property "Reference" "#FLG0105" (id 0) (at 292.7604 150.5458 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (id 1) (at 289.306 148.9456 0))
+    (property "Value" "PWR_FLAG" (id 1) (at 294.894 148.59 0))
     (property "Footprint" "" (id 2) (at 292.7604 152.4508 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -7,8 +7,8 @@
 - 2 RJ45 connectors. 1 for CAN/RS232 (selectable) 1 for RS232 
 - Redesigned 3.3VA supply with capacity multiplier and filtering.
 
-# TODOs for hardware version 2.0
-
+# TODOs Version 2.0
+- Finished!
 
 ## Done
 - DONE: Larus Symbol on PCB
@@ -63,12 +63,20 @@
 
 
 ## Links to parts
-Gauge pressure sensor: HSCMRRV001PG2A3
+Gauge pressure: HSCMRRV001PG2A3
 https://de.farnell.com/honeywell/hscmrrv001pg2a3/drucksensor-1psi-i2c-digital/dp/3439040
 https://de.rs-online.com/web/p/drucksensor-ics/2269696
+
+Static pressure:
+https://www.mouser.de/ProductDetail/Measurement-Specialties/MS561101BA03-50?qs=%252BgKeJhng5iV%252BnCz6Qd5iDw%3D%3D
 
 IMU:  MTi-1
 https://de.farnell.com/xsens/mti-1-0i-t/mems-modul-2-16-3-6v-lcc-28/dp/3793980?st=mti-1-0i-t
 
 GNSS:
 https://www.mouser.de/ProductDetail/u-blox/NEO-M9N-00B?qs=DPoM0jnrROVeJ6BHpcwcjw%3D%3D
+
+RJ45:
+https://www.mouser.de/ProductDetail/Amphenol-Commercial-Products/RJHSE-5380?qs=rM3ofmSYd5RUaPrWD7oMhw%3D%3D
+
+
