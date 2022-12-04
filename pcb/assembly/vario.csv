@@ -118,6 +118,7 @@ Comment,Designator,Footprint,LCSC
 "AMS1117-3.3","U2","Package_TO_SOT_SMD:SOT-223-3_TabPin2","C6186"
 "sparkfun holes","U20","OWN_Parts_:sparkfunmechanical",""
 "Tooling hole","U21,U22,U23","OWN_Parts_:jlcpcb_tooling_hole",""
+"Coordinate ","U24","OWN_Parts_:coordinate_sys",""
 "TPMP2359DJ","U3","Package_TO_SOT_SMD:SOT-23-6","C2959845"
 "HAMMOND_1455K1202","U4","OWN_Parts_:HAMMOND_1455K1202",""
 "MTi-1IMU","U5","OWN_Parts_:XSens_MTi1_IMU",""
