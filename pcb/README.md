@@ -90,7 +90,7 @@ Barbs:
 
 Internal tubing: 2 x 4 silicon tube for internal connections
 
-Milled pressure hood inkluding M2 screws 
+Milled pressure hood inkluding M2 screws. UHU Max Repair Extreme to glue and seal the pressure hood.
 
 U.FL  - SMA Pigtails  for GNSS and Bluetooth/Wifi Antenna
 
