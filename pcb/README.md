@@ -98,6 +98,8 @@ SMA GNSS Antenna
 
 SMA 2.4GHz Antenna
 
+For STM32 Debugging 6 x 1.25mm pitch JST connector socket and cable. 4, 6 and 8 x 1.25mm for auxilary debug connectors. 
 
+To be designed: front and back cover pcb with openings for status leds, 2 x rj45, 2 x usb, 3 x SMA Wifi/Bluetooth, GNSS-1, GNSS-2(DGNSS option), 5mm hose connectors and a nice logo and some descriptive silkscreen.     
 
 
