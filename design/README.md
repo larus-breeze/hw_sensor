@@ -1,26 +1,22 @@
-# PCB design for Vario Sensor 
+# PCB design for Sensor V2.0 
 
 ## Current consumption consideration
-
-### Measured consumption of hw version 1.0.0
+### Measured consumption of hw version 1.0
 - M9N GNSS active, SD-card logging active, Bluetooth connected, 
 - 1.071W 85mA Peak at 12.6V supply. ~ 320mA at 3.3V
 - 50mA HM-19 Bluetooth
 
-### 3.3V Line for next hw version
+### Maximum estimation 3.3V Line for hw version 2.0
 - 102mA max @85°C STM32F407 
 - 200mA max peak Micro SD
 - 100mA peak max M9N GNSS
 - 130 - 310mA ESP32 (70mA CPU + 240mA Wifi full power or 60mA bluetooth connected) 
 - 33mA xSense MTi1 IMU
 - 1.4mA peak MS5611
-- 2.8mA peak HSCMRRN001PG2A3 absolute pressure sensing    HSCMRRD001PG2A3 (with diagnostics), HSCMRRV001PG2A3(with diagnostics and port 1 also for liquid) <= newer alternative 2022.07.26: available at Farnell and rs-online.com
+- 2.8mA peak HSCMRRV001PG2A3 absolute pressure sensing
 - 1mA (60mA short circuit output current) RS232 Converter
 - 60mA "Dominant- High Bus Load"  180mA "Dominant- Bus Fault" CAN Transceiver
-
 Total:  810.2mA max total. 
-
-## TPMP2359DL supply up to 1.2A continuous current should be sufficient
 
 ## Mechanical design:
 
@@ -29,7 +25,7 @@ Total:  810.2mA max total.
 - Free Space (active area on PCB) in enclosure 70 x 120  with some margin 69 x 120 mm 
 
 ### PVC milled 5mm Hose preassure connector
-- 30mm(long) x 20mm(wide) x 25mm( high) 
+- 30mm(long) x 20mm(wide) x ~ 15 .. 20mm( high) 
 - 1 x MS5611 underneath 
 - 6 x 2.5mm screw connection to PCB. 
 

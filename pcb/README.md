@@ -79,4 +79,25 @@ https://www.mouser.de/ProductDetail/u-blox/NEO-M9N-00B?qs=DPoM0jnrROVeJ6BHpcwcjw
 RJ45:
 https://www.mouser.de/ProductDetail/Amphenol-Commercial-Products/RJHSE-5380?qs=rM3ofmSYd5RUaPrWD7oMhw%3D%3D
 
+Enclosure:
+43mm height: 1455K1202 https://www.reichelt.de/profilgehaeuse-1455-k-120-x-78-x-43-mm-silber-1455k1202-p221356.html?CCOUNTRY=445&LANGUAGE=de
+https://www.mouser.de/ProductDetail/Hammond-Manufacturing/1455K1202?qs=bDnubaabCY889pgt9Jk8KQ%3D%3D
+27mm height: 1455J1202 https://www.reichelt.de/profilgehaeuse-1455-j-120-x-78-x-27-mm-silber-1455j1202-p221348.html?&trstct=pos_0&nbc=1
+https://www.mouser.de/ProductDetail/Hammond-Manufacturing/1455J1202?qs=y9%2FpVxnqej%2FD6uE6GgHhOQ%3D%3D
+
+Barbs: 
+5mm-M5 for external 5mm hose connections, 2.5mm-M5 Barbs for internal hose conenction
+
+Internal tubing: 2 x 4 silicon tube for internal connections
+
+Milled pressure hood inkluding M2 screws 
+
+U.FL  - SMA Pigtails  for GNSS and Bluetooth/Wifi Antenna
+
+SMA GNSS Antenna
+
+SMA 2.4GHz Antenna
+
+
+
 
