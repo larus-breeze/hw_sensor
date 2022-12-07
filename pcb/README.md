@@ -7,30 +7,30 @@
 - 2 RJ45 connectors for CAN and RS232
 
 # Changes done for Version 2.0
-- Changed the pcb format to fit the aluminium enclosure 1455K1202 or 1455J1201.
+- Changed the PCB format to fit the aluminum enclosure 1455K1202 or 1455J1201.
 - Redesigned the analog 3.3VA voltage supply with a capacity multiplier and a separate LDO after the 5V Buck converter.
-- Introduced a seperated analog section on the board and placed the regulator, filter and sensors there.
-- Replaced the bluetooth module with an esp32 for improved bluetooth and wifi connectivity.
-- Removed the low cost Gyro, Acc and Mag components and addded 3 mounting holes in 0.8inch distance for sparkfun headers.
+- Introduced a separated analog section on the board and placed the regulator, filter and sensors there.
+- Replaced the Bluetooth module with an esp32 for improved Bluetooth and WiFi connectivity.
+- Removed the low cost Gyro, Acc and Mag components and added 3 mounting holes in 0.8inch distance for sparkfun headers.
 - Removed the second MS5611 and improved the layout.
 - Replaced the existing USART-3 connector with a Pixhawk standard JST-GH 6 pin Connector to connect and supply DGNSS simpleRTK2B+heading modules. 1: 5V_IN, 2: RX (3.3V level), 3: TX (3.3V level), 4,5: Not connected, 6: GND.
 - Changed to two single RJ45 connectors for CAN and RS232.
-- Added a footprint for a milled pressure hood including mounting screws to connect static and pitot on the pcbs edge.
+- Added a footprint for a milled pressure hood including mounting screws to connect static and pitot on the PCBs edge.
 - Redesigned the digital voltage supply regulators and added sufficient capacity.
 - Added a separate boost converter to boost the USB Voltage.
 - Added a Larus Symbol on the board.
 - Changed the SMA to a u.fl connector for the GNSS Antenna.
 - Added active current limiting of GNSS antenna feed with circuit taken from the U-Blox F9P hardware integration manual.
 - Added ESD-protection diodes for voltage supply, GNSS antenna and USB connectors.
-- Added thermal reliefs on copper fills to improve hand solderability.
+- Added thermal reliefs on copper fills to improve hand solder-ability.
 - Added more status and error LEDs and labeling.
-- Connected USB, RJ45 shields and aluminium enclosure to a separate shield ground net. Routed the shield ground around the PCB and connected it on one point with a ferrit to ground. 
-- Changed the RJ45 CAN pinout so that a twisted pair of a standard patchcable is used.
+- Connected USB, RJ45 shields and aluminum enclosure to a separate shield ground net. Routed the shield ground around the PCB and connected it on one point with a ferrit to ground. 
+- Changed the RJ45 CAN pin out so that a twisted pair of a standard patch cable is used.
 - Improved anti-alias filtering for supply voltage measurement.
 - Added a switch for boot0 at the pcb edge.
-- Added the missing GNSS reset pullup resistor.
-- Enabled detecting the hardware version with an adc input and a 1:1 voltage divider for this version.
-- Decreased testpoint size to 1mm
+- Added the missing GNSS reset pull-up resistor.
+- Enabled detecting the hardware version with an ADC input and a 1:1 voltage divider for this version.
+- Decreased test point size to 1mm
 
 
 # Ideas for next hardware iteration
