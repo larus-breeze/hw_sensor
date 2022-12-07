@@ -4710,7 +4710,6 @@
     )
   )
 
-
   (junction (at 109.0676 64.3636) (diameter 0) (color 0 0 0 0)
     (uuid 0198b462-ebda-485e-83b8-ff0e118d43c6)
   )
@@ -16135,6 +16134,12 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61170.pdf" (id 3) (at 195.326 29.464 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" " C15163" (id 4) (at 191.516 38.354 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" " C15163" (id 5) (at 191.516 38.354 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cd7c277b-6829-4d73-88e1-9a098acdee29))
     (pin "2" (uuid 10868983-7c08-40ca-80fa-e955ca92bb3d))
     (pin "3" (uuid 6eb12b87-5996-40e1-9f57-52dd03301215))
@@ -16671,8 +16676,8 @@
     (pin "1" (uuid 70517c84-7c6b-4380-86ed-1f4c34ddb1b4))
     (pin "2" (uuid 1be8d613-89ec-4afc-ba6f-95170ac5b3bd))
     (pin "3" (uuid fa5828d3-b18a-4ade-883a-aad02de32d3d))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a420))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a420))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a422))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a422))
   )
 
   (symbol (lib_id "Device:C_Small") (at 140.589 35.56 0) (unit 1)
