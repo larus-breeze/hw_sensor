@@ -14,7 +14,7 @@
 
 
 ## PCB design V2.0
-- TODO
+![Components Soldered Model](media/v2_soldered_components.jpg)
 
 
 ## Assembled sensor V2.0
@@ -22,17 +22,17 @@
 
 
 ## PCB design V1.0
-![3D Model](media/3DModel.png)
-![Components Soldered Model](media/soldered_components.jpg)
+![3D Model](media/v1_3DModel.png)
+![Components Soldered Model](media/v1_soldered_components.jpg)
 
 
 ## Assembled sensor V1.0
 Static and pitot pressure shall be connected using 5mm inner diameter houses which are typical in a glider
 
-![Assembled 1](media/full_assembled_1.jpg)
+![Assembled 1](media/v1_full_assembled_1.jpg)
 
-![Assembled 2](media/full_assembled_2.jpg)
+![Assembled 2](media/v1_full_assembled_2.jpg)
 
-![Assembled 3](media/full_assembled_3.jpg)
+![Assembled 3](media/v1_full_assembled_3.jpg)
 
 
