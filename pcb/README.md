@@ -34,13 +34,14 @@
 
 
 # Ideas for next hardware iteration
+- Solder jumper for GNSS M9N Uart so that USART3 can even be used for a different purpose if the M9N GNSS module is populated.
 - User switch at the pcb edge.
 - A single sepic converster e.g. LM3488 for 3... 24V input  -> 5V output
 - Alternative Debug Connector TC2030-CTX-NL-STDC14 : https://www.tag-connect.com/solutions-target-devices/arm#s0
 - Sd-card power supply switchable.
 - 27R series resistors for sdio bus lines. 
 - Connect GNSS-PPS to GPIO timer input. 
-- Sockets for 2 DGNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
+- Change to F9P GNSS Module on PCB or add  Sockets for 2 DGNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 
 
 # Links to some parts
