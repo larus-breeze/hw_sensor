@@ -67,21 +67,20 @@ https://www.mouser.de/ProductDetail/Hammond-Manufacturing/1455K1202?qs=bDnubaabC
 27mm height: 1455J1202 https://www.reichelt.de/profilgehaeuse-1455-j-120-x-78-x-27-mm-silber-1455j1202-p221348.html?&trstct=pos_0&nbc=1
 https://www.mouser.de/ProductDetail/Hammond-Manufacturing/1455J1202?qs=y9%2FpVxnqej%2FD6uE6GgHhOQ%3D%3D
 
-Barbs: 
-5mm-M5 for external 5mm hose connections, 2.5mm-M5 Barbs for internal hose conenction
+Barbs brass: 5mm-M5 external 5mm hose, 2.5mm-M5 internal hose
 
-Internal tubing: 2 x 4 silicon tube for internal connections
+Internal tubing: 1 x 3mm silicon tube
 
-Milled pressure hood inkluding M2 screws. UHU Max Repair Extreme to glue and seal the pressure hood.
+Milled pressure hood. 2x8mm M2 brass screws. PU glue (e.g. UHU Max Repair Power, Sikaflex) to seal the pressure hood.
 
-U.FL  - SMA Pigtails  for GNSS and Bluetooth/Wifi Antenna
+U.FL - Pigtails  for GNSS (SMA)  and Bluetooth/Wifi (SMA-RP) Antenna
 
 SMA GNSS Antenna
 
-SMA 2.4GHz Antenna
+SMA-RP 2.4GHz Antenna
 
 For STM32 Debugging 6 x 1.25mm pitch JST connector socket and cable. 4, 6 and 8 x 1.25mm for auxilary debug connectors. 
 
-To be designed: front and back cover pcb with openings for status leds, 2 x rj45, 2 x usb, 3 x SMA Wifi/Bluetooth, GNSS-1, GNSS-2(DGNSS option), 5mm hose connectors and a nice logo and some descriptive silkscreen.     
+To be designed: front and back cover pcb with openings for status leds, 2 x rj45, 2 x usb, 3 x SMA Wifi/Bluetooth, GNSS-1, GNSS-2(DGNSS option), 5mm hose connectors and a nice logo and some descriptive silkscreen.
 
 
