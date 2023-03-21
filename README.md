@@ -12,18 +12,16 @@
 - RS232 via RJ45
 - USB connectors for STM32, ESP32, GNSS
 
+## Assembled sensor V2.0
+
+![Components Soldered Model](media/v2_full_assembled_front.jpg)
+
+![Components Soldered Model](media/v2_full_assembled_back.jpg)
 
 ## PCB design V2.0
+
 ![Components Soldered Model](media/v2_soldered_components.jpg)
 
-
-## Assembled sensor V2.0
-- TODO
-
-
-## PCB design V1.0
-![3D Model](media/v1_3DModel.png)
-![Components Soldered Model](media/v1_soldered_components.jpg)
 
 
 ## Assembled sensor V1.0
@@ -34,5 +32,3 @@ Static and pitot pressure shall be connected using 5mm inner diameter houses whi
 ![Assembled 2](media/v1_full_assembled_2.jpg)
 
 ![Assembled 3](media/v1_full_assembled_3.jpg)
-
-
