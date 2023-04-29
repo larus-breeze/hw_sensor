@@ -1,0 +1,469 @@
+Hinweis: Lese Netzlistendatei "/Users/dirk/Downloads/hw_sensor-master/pcb/vario.net".
+
+Hinweis: Verwenden von Referenzbezeichnern für den Abgleich von Symbolen mit Footprints.
+
+Hinweis: Verarbeite Symbol "TP25:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP1:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP2:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP3:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP4:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP5:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP6:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP7:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP8:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP9:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP10:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP11:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP12:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP13:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP15:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP16:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP18:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP19:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP20:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP21:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP23:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP24:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP26:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "TP27:TestPoint:TestPoint_Pad_1.0x1.0mm".
+Hinweis: Verarbeite Symbol "R47:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C49:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R26:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C2:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R21:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C48:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R4:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C4:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R20:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C41:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R18:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C6:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R17:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C7:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R48:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C8:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R49:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C9:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R16:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C67:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R15:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C66:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R14:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C12:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R13:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C13:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R51:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C40:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R46:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C15:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R45:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C59:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R42:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C17:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R41:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C36:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R40:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C35:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R38:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C20:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R37:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C58:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R52:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C34:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R35:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C31:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R34:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C56:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R32:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C55:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R30:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C30:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R12:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C53:Capacitor_SMD:C_0402_1005Metric".
+Hinweis: Verarbeite Symbol "R10:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C27:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R1:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C29:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R55:Resistor_SMD:R_0603_1608Metric".
+Hinweis: Verarbeite Symbol "C26:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R27:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C57:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R25:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C22:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R3:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C19:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R2:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C18:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R54:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C37:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R53:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C39:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R5:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C50:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R6:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C60:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R7:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C5:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R50:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C42:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R8:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C3:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R28:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C44:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R9:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C1:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R11:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C47:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R29:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C43:Capacitor_SMD:C_0603_1608Metric".
+Hinweis: Verarbeite Symbol "R31:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C45:Capacitor_SMD:C_0805_2012Metric".
+Hinweis: Verarbeite Symbol "R24:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C11:Capacitor_SMD:C_0805_2012Metric".
+Hinweis: Verarbeite Symbol "R23:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C28:Capacitor_SMD:C_0805_2012Metric".
+Hinweis: Verarbeite Symbol "R22:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C14:Capacitor_SMD:C_0805_2012Metric".
+Hinweis: Verarbeite Symbol "R33:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C51:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "R36:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C52:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "R39:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C54:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "R43:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C25:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "R44:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C24:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "R19:Resistor_SMD:R_0402_1005Metric".
+Hinweis: Verarbeite Symbol "C23:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U6:RF_Module:ESP32-WROOM-32U".
+Hinweis: Verarbeite Symbol "C21:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U8:RF_GPS:ublox_NEO".
+Hinweis: Verarbeite Symbol "C16:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U14:Package_TO_SOT_SMD:SOT-23-6".
+Hinweis: Verarbeite Symbol "C62:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U3:Package_TO_SOT_SMD:SOT-23-6".
+Hinweis: Verarbeite Symbol "C63:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U15:Package_TO_SOT_SMD:SOT-23-6".
+Hinweis: Verarbeite Symbol "C64:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U16:Package_TO_SOT_SMD:SOT-23-6".
+Hinweis: Verarbeite Symbol "C65:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "U17:Package_TO_SOT_SMD:SOT-23-5".
+Hinweis: Verarbeite Symbol "C10:Capacitor_SMD:C_1206_3216Metric".
+Hinweis: Verarbeite Symbol "Q6:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J24:Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5".
+Hinweis: Verarbeite Symbol "Q5:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J21:Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical".
+Hinweis: Verarbeite Symbol "Q4:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J9:Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical".
+Hinweis: Verarbeite Symbol "Q3:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J7:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "Q2:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J11:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "Q1:Package_TO_SOT_SMD:SOT-23".
+Hinweis: Verarbeite Symbol "J13:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U2:Package_TO_SOT_SMD:SOT-223-3_TabPin2".
+Hinweis: Verarbeite Symbol "J18:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U12:Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm".
+Hinweis: Verarbeite Symbol "J19:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U9:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm".
+Hinweis: Verarbeite Symbol "J1:Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U10:Package_SO:SOIC-16_3.9x9.9mm_P1.27mm".
+Hinweis: Verarbeite Symbol "J6:Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U13:Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm".
+Hinweis: Verarbeite Symbol "J16:Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "J17:Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U1:Package_QFP:LQFP-100_14x14mm_P0.5mm".
+Hinweis: Verarbeite Symbol "J20:Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U7:Package_LGA:LGA-8_3x5mm_P1.25mm".
+Hinweis: Verarbeite Symbol "J2:Connector_Molex:Molex_PicoBlade_53048-0810_1x08_P1.25mm_Horizontal".
+Hinweis: Verarbeite Symbol "U20:OWN_Parts_:sparkfunmechanical".
+Hinweis: Verarbeite Symbol "J3:Connector_RJ:RJ45_Amphenol_RJHSE5380".
+Hinweis: Verarbeite Symbol "J8:Connector_RJ:RJ45_Amphenol_RJHSE5380".
+Hinweis: Verarbeite Symbol "U19:OWN_Parts_:pressurehood".
+Hinweis: Verarbeite Symbol "U22:OWN_Parts_:jlcpcb_tooling_hole".
+Hinweis: Verarbeite Symbol "J4:Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12".
+Hinweis: Verarbeite Symbol "J5:Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12".
+Hinweis: Verarbeite Symbol "U21:OWN_Parts_:jlcpcb_tooling_hole".
+Hinweis: Verarbeite Symbol "TP14:Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm".
+Hinweis: Verarbeite Symbol "Y1:Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm".
+Hinweis: Verarbeite Symbol "U23:OWN_Parts_:jlcpcb_tooling_hole".
+Hinweis: Verarbeite Symbol "D16:Diode_SMD:D_0402_1005Metric".
+Hinweis: Verarbeite Symbol "D1:Diode_SMD:D_SOD-123".
+Hinweis: Verarbeite Symbol "U24:OWN_Parts_:coordinate_sys".
+Hinweis: Verarbeite Symbol "D17:Diode_SMD:D_SOD-123F".
+Hinweis: Verarbeite Symbol "D13:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "L3:OWN_Parts_:YNR4030".
+Hinweis: Verarbeite Symbol "D2:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "L1:OWN_Parts_:YNR4030".
+Hinweis: Verarbeite Symbol "D3:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "U5:OWN_Parts_:XSens_MTi1_IMU".
+Hinweis: Verarbeite Symbol "D4:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "D5:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "D14:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "D15:Diode_SMD:D_SOD-323".
+Hinweis: Verarbeite Symbol "SW1:OWN_Parts_:TS-1187A-C-E-B".
+Hinweis: Verarbeite Symbol "F1:Fuse:Fuse_1812_4532Metric".
+Hinweis: Verarbeite Symbol "SW4:OWN_Parts_:TS-1187A-C-E-B".
+Hinweis: Verarbeite Symbol "L4:Inductor_SMD:L_0603_1608Metric".
+Hinweis: Verarbeite Symbol "SW3:OWN_Parts_:TS-1187A-C-E-B".
+Hinweis: Verarbeite Symbol "FB1:Inductor_SMD:L_0805_2012Metric".
+Hinweis: Verarbeite Symbol "SW2:OWN_Parts_:TC-1102DE-X-X".
+Hinweis: Verarbeite Symbol "FB3:Inductor_SMD:L_0805_2012Metric".
+Hinweis: Verarbeite Symbol "U11:OWN_Parts_:SSCMRRN001PG2A3_SMT-8".
+Hinweis: Verarbeite Symbol "FB4:Inductor_SMD:L_0805_2012Metric".
+Hinweis: Verarbeite Symbol "C68:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP1:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "C61:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP2:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "C46:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP5:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "C38:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP11:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "C33:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP13:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "C32:OWN_Parts_:NFM21PC105B1C3D".
+Hinweis: Verarbeite Symbol "JP14:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "J10:OWN_Parts_:KH-TYPE-C-L10-14P".
+Hinweis: Verarbeite Symbol "JP15:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "U4:OWN_Parts_:HAMMOND_1455K1202".
+Hinweis: Verarbeite Symbol "U18:OWN_Parts_:DFN1x1-4L".
+Hinweis: Verarbeite Symbol "JP12:Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "JP3:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D7:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP4:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D11:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP6:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D19:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP7:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D18:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP8:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D12:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP9:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D9:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "JP10:Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm".
+Hinweis: Verarbeite Symbol "D6:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "D10:LED_SMD:LED_0603_1608Metric".
+Hinweis: Verarbeite Symbol "D8:LED_SMD:LED_0603_1608Metric".
+D8 Eigenschaften aktualisieren.
+D6 Eigenschaften aktualisieren.
+D10 Eigenschaften aktualisieren.
+D9 Eigenschaften aktualisieren.
+D12 Eigenschaften aktualisieren.
+D18 Eigenschaften aktualisieren.
+D19 Eigenschaften aktualisieren.
+D11 Eigenschaften aktualisieren.
+D7 Eigenschaften aktualisieren.
+U18 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U18 Eigenschaften aktualisieren.
+J10 Eigenschaften aktualisieren.
+C32 Eigenschaften aktualisieren.
+C33 Eigenschaften aktualisieren.
+C38 Eigenschaften aktualisieren.
+C46 Eigenschaften aktualisieren.
+C61 Eigenschaften aktualisieren.
+C68 Eigenschaften aktualisieren.
+U11 Eigenschaften aktualisieren.
+FB4 Eigenschaften aktualisieren.
+SW2 Eigenschaften aktualisieren.
+FB3 Eigenschaften aktualisieren.
+SW3 Eigenschaften aktualisieren.
+FB1 Eigenschaften aktualisieren.
+SW4 Eigenschaften aktualisieren.
+L4 Eigenschaften aktualisieren.
+SW1 Eigenschaften aktualisieren.
+F1 Eigenschaften aktualisieren.
+C49 Eigenschaften aktualisieren.
+D15 Eigenschaften aktualisieren.
+R47 Eigenschaften aktualisieren.
+D14 Eigenschaften aktualisieren.
+C2 Eigenschaften aktualisieren.
+D5 Eigenschaften aktualisieren.
+U5 Eigenschaften aktualisieren.
+D4 Eigenschaften aktualisieren.
+L1 Eigenschaften aktualisieren.
+D3 Eigenschaften aktualisieren.
+L3 Eigenschaften aktualisieren.
+D2 Eigenschaften aktualisieren.
+U24 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+D13 Eigenschaften aktualisieren.
+U24 Eigenschaften aktualisieren.
+D17 Eigenschaften aktualisieren.
+U23 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+D1 Eigenschaften aktualisieren.
+U23 Eigenschaften aktualisieren.
+D16 Eigenschaften aktualisieren.
+U21 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+Y1 Eigenschaften aktualisieren.
+U21 Eigenschaften aktualisieren.
+U22 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+J5 Eigenschaften aktualisieren.
+U22 Eigenschaften aktualisieren.
+J4 Eigenschaften aktualisieren.
+U20 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+J8 Eigenschaften aktualisieren.
+U20 Eigenschaften aktualisieren.
+J3 Eigenschaften aktualisieren.
+U7 Eigenschaften aktualisieren.
+J2 Eigenschaften aktualisieren.
+J2 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U1 Eigenschaften aktualisieren.
+R26 Eigenschaften aktualisieren.
+J17 Eigenschaften aktualisieren.
+J17 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U13 Eigenschaften aktualisieren.
+J16 Eigenschaften aktualisieren.
+J16 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U10 Eigenschaften aktualisieren.
+J6 Eigenschaften aktualisieren.
+J6 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U9 Eigenschaften aktualisieren.
+J1 Pin 2 von USART3_RX nach USART3_TX wieder verbinden.
+J1 Pin 3 von USART3_TX nach USART3_RX wieder verbinden.
+U12 Eigenschaften aktualisieren.
+J19 Eigenschaften aktualisieren.
+J19 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+U2 Eigenschaften aktualisieren.
+J18 Eigenschaften aktualisieren.
+J18 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+Q1 Eigenschaften aktualisieren.
+J13 Eigenschaften aktualisieren.
+J13 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+Q2 Eigenschaften aktualisieren.
+J11 Eigenschaften aktualisieren.
+J11 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+Q3 Eigenschaften aktualisieren.
+J7 Eigenschaften aktualisieren.
+J7 'Von Bauteilliste ausschließen'-Fertigungsattribut hinzufügen.
+Q4 Eigenschaften aktualisieren.
+Q5 Eigenschaften aktualisieren.
+J21 Eigenschaften aktualisieren.
+Q6 Eigenschaften aktualisieren.
+J24 Eigenschaften aktualisieren.
+U17 Eigenschaften aktualisieren.
+C10 Eigenschaften aktualisieren.
+U16 Eigenschaften aktualisieren.
+C65 Eigenschaften aktualisieren.
+U15 Eigenschaften aktualisieren.
+C64 Eigenschaften aktualisieren.
+U3 Eigenschaften aktualisieren.
+C63 Eigenschaften aktualisieren.
+U14 Eigenschaften aktualisieren.
+C62 Eigenschaften aktualisieren.
+U8 Eigenschaften aktualisieren.
+C16 Eigenschaften aktualisieren.
+U6 Eigenschaften aktualisieren.
+C21 Eigenschaften aktualisieren.
+R19 Eigenschaften aktualisieren.
+C23 Eigenschaften aktualisieren.
+R44 Eigenschaften aktualisieren.
+C24 Eigenschaften aktualisieren.
+R43 Eigenschaften aktualisieren.
+C25 Eigenschaften aktualisieren.
+R39 Eigenschaften aktualisieren.
+C54 Eigenschaften aktualisieren.
+R36 Eigenschaften aktualisieren.
+C52 Eigenschaften aktualisieren.
+R33 Eigenschaften aktualisieren.
+C51 Eigenschaften aktualisieren.
+R22 Eigenschaften aktualisieren.
+C14 Eigenschaften aktualisieren.
+R23 Eigenschaften aktualisieren.
+C28 Eigenschaften aktualisieren.
+R24 Eigenschaften aktualisieren.
+C11 Eigenschaften aktualisieren.
+R31 Eigenschaften aktualisieren.
+C45 Eigenschaften aktualisieren.
+R29 Eigenschaften aktualisieren.
+C43 Eigenschaften aktualisieren.
+R11 Eigenschaften aktualisieren.
+C47 Eigenschaften aktualisieren.
+R9 Eigenschaften aktualisieren.
+C1 Eigenschaften aktualisieren.
+R28 Eigenschaften aktualisieren.
+C44 Eigenschaften aktualisieren.
+R8 Eigenschaften aktualisieren.
+C3 Eigenschaften aktualisieren.
+R50 Eigenschaften aktualisieren.
+C42 Eigenschaften aktualisieren.
+R7 Eigenschaften aktualisieren.
+C5 Eigenschaften aktualisieren.
+R6 Eigenschaften aktualisieren.
+C60 Eigenschaften aktualisieren.
+R5 Eigenschaften aktualisieren.
+C50 Eigenschaften aktualisieren.
+R53 Eigenschaften aktualisieren.
+C39 Eigenschaften aktualisieren.
+R54 Eigenschaften aktualisieren.
+C37 Eigenschaften aktualisieren.
+R2 Eigenschaften aktualisieren.
+C18 Eigenschaften aktualisieren.
+R3 Eigenschaften aktualisieren.
+C19 Eigenschaften aktualisieren.
+R25 Eigenschaften aktualisieren.
+C22 Eigenschaften aktualisieren.
+R27 Eigenschaften aktualisieren.
+C57 Eigenschaften aktualisieren.
+R55 Eigenschaften aktualisieren.
+C26 Eigenschaften aktualisieren.
+R1 Eigenschaften aktualisieren.
+C29 Eigenschaften aktualisieren.
+R10 Eigenschaften aktualisieren.
+C27 Eigenschaften aktualisieren.
+R12 Eigenschaften aktualisieren.
+C53 Eigenschaften aktualisieren.
+R30 Eigenschaften aktualisieren.
+C30 Eigenschaften aktualisieren.
+R32 Eigenschaften aktualisieren.
+C55 Eigenschaften aktualisieren.
+R34 Eigenschaften aktualisieren.
+C56 Eigenschaften aktualisieren.
+R35 Eigenschaften aktualisieren.
+C31 Eigenschaften aktualisieren.
+R52 Eigenschaften aktualisieren.
+C34 Eigenschaften aktualisieren.
+R37 Eigenschaften aktualisieren.
+C58 Eigenschaften aktualisieren.
+R38 Eigenschaften aktualisieren.
+C20 Eigenschaften aktualisieren.
+R40 Eigenschaften aktualisieren.
+C35 Eigenschaften aktualisieren.
+R41 Eigenschaften aktualisieren.
+C36 Eigenschaften aktualisieren.
+R42 Eigenschaften aktualisieren.
+C17 Eigenschaften aktualisieren.
+R45 Eigenschaften aktualisieren.
+C59 Eigenschaften aktualisieren.
+R46 Eigenschaften aktualisieren.
+C15 Eigenschaften aktualisieren.
+R51 Eigenschaften aktualisieren.
+C40 Eigenschaften aktualisieren.
+R13 Eigenschaften aktualisieren.
+C13 Eigenschaften aktualisieren.
+R14 Eigenschaften aktualisieren.
+C12 Eigenschaften aktualisieren.
+R15 Eigenschaften aktualisieren.
+C66 Eigenschaften aktualisieren.
+R16 Eigenschaften aktualisieren.
+C67 Eigenschaften aktualisieren.
+R49 Eigenschaften aktualisieren.
+C9 Eigenschaften aktualisieren.
+R48 Eigenschaften aktualisieren.
+C8 Eigenschaften aktualisieren.
+R17 Eigenschaften aktualisieren.
+C7 Eigenschaften aktualisieren.
+R18 Eigenschaften aktualisieren.
+C6 Eigenschaften aktualisieren.
+R20 Eigenschaften aktualisieren.
+C41 Eigenschaften aktualisieren.
+R4 Eigenschaften aktualisieren.
+C4 Eigenschaften aktualisieren.
+R21 Eigenschaften aktualisieren.
+C48 Eigenschaften aktualisieren.
+Warnung: Kein Netz für Symbol U13 Pin 17 gefunden.
+Warnung: Kein Netz für Symbol U5 Pin 26 gefunden.
+Warnung: Kein Netz für Symbol U5 Pin 27 gefunden.
+Warnung: Kein Netz für Symbol U5 Pin 28 gefunden.
+
+
+Hinweis: Warnungen insgesamt: 0, Fehler insgesamt: 0.
