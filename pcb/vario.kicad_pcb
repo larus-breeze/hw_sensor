@@ -13804,7 +13804,7 @@
   (gr_text "NC" (at 79.883 96.266) (layer "B.SilkS") (tstamp ab93394d-546f-4803-a908-4361294f4cb1)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
   )
-  (gr_text "Larus Sensor V2.0 12/22" (at 101.346 112.014) (layer "B.SilkS") (tstamp abd07a02-44bf-463b-be40-d5f7c9765413)
+  (gr_text "Larus Sensor V2.1 05/23" (at 101.346 112.014) (layer "B.SilkS") (tstamp abd07a02-44bf-463b-be40-d5f7c9765413)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
   (gr_text "SWCLK" (at 73.279 61.976 90) (layer "B.SilkS") (tstamp ac707983-30fc-4e55-b73d-c45af8a2aac5)
