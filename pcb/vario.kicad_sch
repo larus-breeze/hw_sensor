@@ -6,8 +6,8 @@
 
   (title_block
     (title "Larus Sensor Schematic")
-    (date "2023-07-26")
-    (rev "2.0")
+    (date "2024-01-06")
+    (rev "2.1")
     (company "Maximilian Betz")
   )
 
@@ -8354,6 +8354,11 @@
   (text "Static pressure" (at 325.755 15.113 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44a8a96b-3053-4222-9241-aa484f5ebe13)
+  )
+  (text "CJ6205B33M could \nbe an alternative\n--- untested ---"
+    (at 94.234 81.026 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 456276bf-9c9b-4494-85f5-82f19e5888df)
   )
   (text "I2C Addr: 0xEE" (at 347.5228 63.8302 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -19055,7 +19060,7 @@
   )
 
   (symbol (lib_id "OWN_Parts_:SK6013AD4-33") (at 141.3764 66.9544 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a15e1bc9-adf0-4298-b7b2-72ff0811d87b)
     (property "Reference" "U18" (at 143.9164 73.4568 0)
       (effects (font (size 1.27 1.27)))
@@ -19076,7 +19081,7 @@
     (pin "2" (uuid 1be8d613-89ec-4afc-ba6f-95170ac5b3bd))
     (pin "3" (uuid fa5828d3-b18a-4ade-883a-aad02de32d3d))
     (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a427))
-    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a427))
+    (pin "4" (uuid 1f585104-f08f-479b-ab33-8bb80333a428))
     (instances
       (project "vario"
         (path "/3c9169cc-3a77-4ae0-8afc-cbfc472a28c5"
