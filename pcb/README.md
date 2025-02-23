@@ -6,7 +6,7 @@
 - USB-C connectors for GNSS, ESP32 and STM32
 - 2 RJ45 connectors for CAN and RS232
 
-# Changes done for Version 2.0
+# Changes Version 2.0
 - Changed the PCB format to fit the aluminum enclosure 1455K1202 or 1455J1201.
 - Redesigned the analog 3.3VA voltage supply with a capacity multiplier and a separate LDO after the 5V Buck converter.
 - Introduced a separated analog section on the board and placed the regulator, filter and sensors there.
@@ -32,16 +32,15 @@
 - Enabled detecting the hardware version with an ADC input and a 1:1 voltage divider for this version.
 - Decreased test point size to 1mm
 
+# Changes Version 2.2
+- increased the size of the usb-c smd throughholes 
+- added uart GNSS solder jumpers to optionally disconnect the onboard M9N GNSS module. (For later upgrading to a D-GNSS module)
+- switched DGNSS pixhawk RX, TX connector pins so that a 1:1 connection cable works
+- moved RJ45 connectors towards each other to increase space on the pcb edge
+- added CAN Termination switch on the pcb backside below the pressure hood. 
 
 # Ideas for next hardware iteration
-- Solder jumper for GNSS M9N Uart so that USART3 can even be used for a different purpose if the M9N GNSS module is populated.
-- User switch at the pcb edge.
-- A single sepic converster e.g. LM3488 for 3... 24V input  -> 5V output
-- Alternative Debug Connector TC2030-CTX-NL-STDC14 : https://www.tag-connect.com/solutions-target-devices/arm#s0
-- Sd-card power supply switchable.
-- 27R series resistors for sdio bus lines. 
-- Connect GNSS-PPS to GPIO timer input. 
-- Change to F9P GNSS Module on PCB or add  Sockets for 2 DGNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
+- Change to F9P GNSS Module on PCB or add sockets for 2 DGNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
 
 
 # Links to some parts
