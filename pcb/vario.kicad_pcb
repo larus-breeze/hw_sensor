@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Larus Sensor Layout")
-		(date "2025-02-21")
+		(date "2025-02-23")
 		(rev "V2.2")
 		(company "Maximilian Betz")
 	)
