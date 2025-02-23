@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OWN_Parts")(type "KiCad")(uri "${LARUS_HW_LIB}/parts/OWN_Parts_.kicad_sym")(options "")(descr ""))
+)

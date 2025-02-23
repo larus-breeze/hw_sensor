@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Larus Sensor Schematic")
-		(date "2025-02-21")
+		(date "2025-02-23")
 		(rev "2.2")
 		(company "Maximilian Betz")
 	)
@@ -5697,150 +5697,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_names
 				(offset 0) hide)
@@ -8087,6 +7943,177 @@
 						)
 					)
 					(number "99"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OWN_Parts:K3-1296S-E"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "K3-1296S-E"
+				(at 1.905 -2.667 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.875 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -15.875 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch sp3t ON-ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW* SP3T*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "K3-1296S-E_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "K3-1296S-E_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14283,12 +14310,6 @@
 		(uuid "1959725d-4748-4ef7-9bcb-4dca437a5a4d")
 	)
 	(junction
-		(at 381 197.8914)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dd4ee6d-fd77-44ce-94a1-12fa83a2a98d")
-	)
-	(junction
 		(at 57.912 131.572)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14563,6 +14584,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "550fae8b-9c93-4a23-a48c-bd4e66e03fbb")
+	)
+	(junction
+		(at 381.1939 197.8914)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5800f0af-3e44-4d83-be55-62be087f8d98")
 	)
 	(junction
 		(at 396.875 31.623)
@@ -15605,6 +15632,10 @@
 		(uuid "c612d394-4bef-4aed-a48e-8643def18d83")
 	)
 	(no_connect
+		(at 387.35 207.01)
+		(uuid "d0b40023-74b0-4fad-9012-ff413bb7c572")
+	)
+	(no_connect
 		(at 32.512 261.112)
 		(uuid "d76ec66c-d0c1-4040-8259-8685c076073a")
 	)
@@ -15848,16 +15879,6 @@
 	)
 	(wire
 		(pts
-			(xy 376.047 209.1944) (xy 381 209.1944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c47b53-d5ee-40a7-b9ed-11714a938f76")
-	)
-	(wire
-		(pts
 			(xy 347.472 190.2714) (xy 347.472 190.1444)
 		)
 		(stroke
@@ -16025,6 +16046,16 @@
 			(type default)
 		)
 		(uuid "0d370940-4cd3-44f9-8a2c-8c9d1ab32394")
+	)
+	(wire
+		(pts
+			(xy 376.047 207.01) (xy 376.047 206.1464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da1662f-a5a8-4b86-a7b1-9615f53b969b")
 	)
 	(wire
 		(pts
@@ -16398,6 +16429,16 @@
 	)
 	(wire
 		(pts
+			(xy 381.1939 200.66) (xy 381.1939 197.8914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ecf1c6-030a-4056-9160-d09494d57ec1")
+	)
+	(wire
+		(pts
 			(xy 345.694 190.3984) (xy 347.472 190.3984)
 		)
 		(stroke
@@ -16625,6 +16666,16 @@
 			(type default)
 		)
 		(uuid "2422c945-6db3-4284-b312-a63ab24350f2")
+	)
+	(wire
+		(pts
+			(xy 387.35 204.47) (xy 387.35 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250cd6fd-33d0-43ee-841c-ee7f3f7c0b9c")
 	)
 	(wire
 		(pts
@@ -17538,16 +17589,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.142 197.8914) (xy 381 197.8914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426580d5-5630-42c0-8a10-f8f8078b5b5b")
-	)
-	(wire
-		(pts
 			(xy 337.82 138.43) (xy 339.09 138.43)
 		)
 		(stroke
@@ -17758,16 +17799,6 @@
 	)
 	(wire
 		(pts
-			(xy 376.047 206.1464) (xy 376.047 209.1944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48cd00df-2627-410f-95d5-a60224f90fb4")
-	)
-	(wire
-		(pts
 			(xy 133.7564 64.4144) (xy 133.7564 66.9544)
 		)
 		(stroke
@@ -17848,6 +17879,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 207.01) (xy 376.047 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b467257-bb5a-47bb-8291-cb0da13aadbb")
+	)
+	(wire
+		(pts
 			(xy 90.2208 91.7448) (xy 90.2208 95.1738)
 		)
 		(stroke
@@ -17905,16 +17946,6 @@
 			(type default)
 		)
 		(uuid "4f683994-1627-4907-b0bd-584a6e8529f2")
-	)
-	(wire
-		(pts
-			(xy 381 209.1944) (xy 381 209.042)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc12cc4-583c-4926-8d4b-f612018b1997")
 	)
 	(wire
 		(pts
@@ -18155,16 +18186,6 @@
 			(type default)
 		)
 		(uuid "5620348f-2245-42f8-b1ad-716f08e438fe")
-	)
-	(wire
-		(pts
-			(xy 381 198.882) (xy 381 197.8914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5656fcb7-483d-4db8-b299-9d589d0dc7c5")
 	)
 	(wire
 		(pts
@@ -20368,6 +20389,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 200.66) (xy 381.1939 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad79bb02-4a93-4043-9dee-60b3e1a05e04")
+	)
+	(wire
+		(pts
 			(xy 254.7112 193.04) (xy 254.762 193.04)
 		)
 		(stroke
@@ -22048,7 +22079,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 197.8914) (xy 381.1939 197.8914)
+			(xy 374.142 197.8914) (xy 381.1939 197.8914)
 		)
 		(stroke
 			(width 0)
@@ -48311,6 +48342,94 @@
 		)
 	)
 	(symbol
+		(lib_id "OWN_Parts:K3-1296S-E")
+		(at 382.27 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fc06cc1-ef58-4b5a-a58b-383da6bad32d")
+		(property "Reference" "SW5"
+			(at 391.16 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K3-1296S-E"
+			(at 382.27 209.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OWN_Parts:K3-1296S-E"
+			(at 366.395 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 366.395 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+			(at 382.27 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136659"
+			(at 382.27 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 382.27 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2face415-b10c-41a7-b374-fdf6977f65ed")
+		)
+		(pin "1"
+			(uuid "c16c6a9f-4ea2-4976-91bf-1d27c719ca16")
+		)
+		(pin "3"
+			(uuid "c92b89ca-2acb-4a0c-a5e7-b9d7b5ccc52b")
+		)
+		(instances
+			(project "vario"
+				(path "/3c9169cc-3a77-4ae0-8afc-cbfc472a28c5"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OWN_Parts_:mechanics")
 		(at 142.24 136.144 0)
 		(unit 1)
@@ -50299,84 +50418,6 @@
 			(project "vario"
 				(path "/3c9169cc-3a77-4ae0-8afc-cbfc472a28c5"
 					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 381 203.962 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81c7c303-5c7e-4223-90f2-627b3ae8bf72")
-		(property "Reference" "JP19"
-			(at 384.556 202.692 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN-Termination Jumper"
-			(at 383.286 205.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OWN_Parts:DSIC01LSGET_SMDIP_1"
-			(at 381 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 381 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 381 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C54948"
-			(at 381 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ead402a-6c1b-4002-b4b8-353dbce695e3")
-		)
-		(pin "2"
-			(uuid "a1c532f0-996f-4406-bbf3-7d2425fea02b")
-		)
-		(instances
-			(project "vario"
-				(path "/3c9169cc-3a77-4ae0-8afc-cbfc472a28c5"
-					(reference "JP19")
 					(unit 1)
 				)
 			)
