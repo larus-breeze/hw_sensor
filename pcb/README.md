@@ -38,6 +38,7 @@
 - switched DGNSS pixhawk RX, TX connector pins so that a 1:1 connection cable works
 - moved RJ45 connectors towards each other to increase space on the pcb edge
 - added CAN Termination switch on the pcb backside below the pressure hood. 
+- added ESD protecton diodes for the SD card sdio interface. 
 
 # Ideas for next hardware iteration
 - Change to F9P GNSS Module on PCB or add sockets for 2 DGNSS modules: https://www.gnss.store/gnss-gps-modules/145-elt128.html,  https://www.ardusimple.com/product/simplertk2blite/
